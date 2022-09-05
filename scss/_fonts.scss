@@ -1,0 +1,52 @@
+@import url("https://use.typekit.net/htw4amb.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+$font-articulat: "articulat-cf", sans-serif;
+$font-ubuntu: 'Ubuntu', sans-serif;
+
+$font-body: $font-articulat;
+
+$font-families: (
+    "articulat": "articulat-cf",
+    "ubuntu": "ubuntu",
+);
+
+@each $name, $font-family in $font-families {
+    .font-#{$name} {
+        font-family: $font-family, sans-serif;
+    }
+}
+
+// $asset-path: "../webfonts/";
+
+// /* Fonts includer */
+// @mixin font-face($font-family, $font-file, $weight: "normal", $style: "normal") {
+//     @font-face {
+//         font-family: $font-family;
+//         src: local($font-file), url($asset-path + $font-file + ".woff") format("woff"),
+//             url($asset-path + $font-file + ".woff2") format("woff2"),
+//             url($asset-path + $font-file + ".eot") format("embedded-opentype"),
+//             url($asset-path + $font-file + ".ttf") format("truetype");
+//         font-weight: $weight;
+//         font-style: $style;
+//     }
+// }
+
+// @include font-face("Gilroy", "Gilroy-Thin", 100);
+// @include font-face("Gilroy", "Gilroy-Ultralight", 200);
+// @include font-face("Gilroy", "Gilroy-Light", 300);
+// @include font-face("Gilroy", "Gilroy-Regular", 400);
+// @include font-face("Gilroy", "Gilroy-Medium", 500);
+// @include font-face("Gilroy", "Gilroy-Semibold", 600);
+// @include font-face("Gilroy", "Gilroy-Bold", 700);
+// @include font-face("Gilroy", "Gilroy-Extrabold", 800);
+// @include font-face("Gilroy", "Gilroy-Black", 900);
+// @include font-face("Gilroy", "Gilroy-Heavy", 901);
+
+$font-weights: 300, 400, 500, 600, 700, 800, 900;
+
+@each $fw in $font-weights {
+    .fw-#{$fw} {
+        font-weight: $fw;
+    }
+}
