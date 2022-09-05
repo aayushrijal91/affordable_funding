@@ -153,6 +153,30 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
+    <div class="container lenders-header">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="fs-2 fw-900 text-primary-dark">Access 40 + lenders</h2>
+            </div>
+            <div class="col-lg-8">
+                <div class="fs-9 text-primary-dark text-center">
+                    Compare and Choose: Tailoring the right loan to suit you, not the bank. We’ll give you the best loan options to compare and choose from 40+ lenders
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="lenders">
+    <div class="lender-slider-1">
+        <div><?= renderImg("pepper-money.png","logo") ?></div>
+        <div><?= renderImg("anz.png","logo") ?></div>
+        <div><?= renderImg("westpac.png","logo") ?></div>
+        <div><?= renderImg("afs.png","logo") ?></div>
+        <div><?= renderImg("angle-finance.png","logo") ?></div>
+        <div><?= renderImg("macquarie.png","logo") ?></div>
+        <div><?= renderImg("latitude.png","logo") ?></div>
+    </div>
 </section>
 
 <?php include __DIR__ . '/footer.php'; ?>

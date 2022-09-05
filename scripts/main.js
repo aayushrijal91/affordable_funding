@@ -11,11 +11,13 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 });
 
 $(() => {
-    // $('.loan-type-slider').slick({
-    //     slidesToShow: 5,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    // });
+    $('.lender-slider-1').slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+    });
 });
 
 $(window).on('scroll', () => {

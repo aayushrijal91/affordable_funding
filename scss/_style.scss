@@ -18,7 +18,7 @@ header {
 
 section.banner {
     background: linear-gradient($primary-dark, $primary-light, $white);
-    padding: 120px 0 124px;
+    padding: 120px 0 64px;
 
     .interest-plan {
         background-color: $primary-dark;
@@ -53,6 +53,25 @@ section.banner {
         filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
         height: 428px;
         overflow: hidden;
+    }
+
+    .lenders-header {
+        padding-top: 248px;
+    }
+}
+
+section.lenders {
+    .lender-slider-1 {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 
