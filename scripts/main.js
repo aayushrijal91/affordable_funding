@@ -47,6 +47,24 @@ $(() => {
         speed: 2500,
         autoplaySpeed: 0
     });
+
+    $('.loans-slider-wrapper ul li.slide').width($('.loans-slider-wrapper ul li:nth-child(1)').width());
+
+    $('.loans-slider').slick({
+        slidesToShow: 1,
+        arrows: false,
+    });
+});
+
+$('.loan-slider-btn').on('click', function() {
+    $(this).parents('li').siblings().removeClass("active");
+    $(this).parents('li').addClass('active');
+    $('.loans-slider-wrapper ul li:nth-child(1).active ~ .slide').width($('.loans-slider-wrapper ul li:nth-child(1)').width());
+    $('.loans-slider-wrapper ul li:nth-child(1).active ~ .slide').css('left', 0);
+    $('.loans-slider-wrapper ul li:nth-child(2).active ~ .slide').width($('.loans-slider-wrapper ul li:nth-child(2)').width());
+    $('.loans-slider-wrapper ul li:nth-child(2).active ~ .slide').css('left', $('.loans-slider-wrapper ul li:nth-child(1)').width());
+    $('.loans-slider-wrapper ul li:nth-child(3).active ~ .slide').width($('.loans-slider-wrapper ul li:nth-child(3)').width());
+    $('.loans-slider-wrapper ul li:nth-child(3).active ~ .slide').css('left', ($('.loans-slider-wrapper ul li:nth-child(1)').width() + $('.loans-slider-wrapper ul li:nth-child(2)').width()));
 });
 
 $(window).on('scroll', () => {

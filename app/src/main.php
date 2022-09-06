@@ -306,4 +306,157 @@ include __DIR__ . '/header.php';
         </div>
     </div>
 </section>
+
+<section class="how-it-works">
+    <div class="container">
+        <div class="fs-1 fw-800 line-height-1">How it works</div>
+        <div class="fs-7 fw-500">We make things <span class="fw-700 text-italic">simple, seamless and FAST…</span></div>
+    </div>
+    <?= renderImg("how-it-works.png", "lib", "w-100") ?>
+</section>
+
+<section class="about">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-4">
+                <h2 class="fs-2 text-primary fw-800 line-height-1">Access To All Car Finance Products</h2>
+                <div class="fs-11 text-primary-dark pt-3 pb-4 line-height-3">
+                    Affordable Funding has access to all Car Finance Products, so no matter your situation, we will have a solution for you. Full range of insurance and warranty products easily incorporated into your loan to supplement your car purchase. We will be there for you throughout the entire duration of your loan, helping with pay-outs, trade-ins and any other queries you may have.
+                </div>
+                <a href="#form" class="text-uppercase btn btn-primary rounded-pill text-white line-height-1 py-4 px-5 px-xl-7 fs-7 fw-700">Apply Now</a>
+            </div>
+            <div class="col-6"><?= renderImg("about.png", "lib", "w-100") ?></div>
+        </div>
+    </div>
+    <div class="loans-slider-wrapper">
+        <div class="container">
+            <ul>
+                <li class="active"><a href="javascript:void(0)" class="btn fs-12 fw-700 text-primary-dark loan-slider-btn">Car Loans</a></li>
+                <li><a href="javascript:void(0)" class="btn fs-12 fw-700 text-primary-dark loan-slider-btn">Commercial Asset Finance</a></li>
+                <li><a href="javascript:void(0)" class="btn fs-12 fw-700 text-primary-dark loan-slider-btn">Personal Loans</a></li>
+                <li class="slide"></li>
+            </ul>
+
+            <div class="loans-slider">
+                <div class="loan-slider-content-wrapper">
+                    <div class="loan-slider-content slider-1">
+                        <div class="row justify-content-between">
+                            <div class="col-7 slider-text">
+                                <div class="fs-2 text-white fw-700 line-height-1">Car Loans</div>
+                                <p class="fs-11 text-white line-height-2 fw-500">
+                                    With our huge network and long-term relationships with the best car finance lenders in the country, we connect credit conscious Australians with much lower interest rates and flexible loan options.
+                                </p>
+                                <p class="fs-11 text-white line-height-2 fw-500">
+                                    Affordable Funding is a true market leader when it comes to Car Loans, guaranteeing to deliver the perfect loan to suit your car buying needs.
+                                </p>
+                                <div class="d-flex pt-3">
+                                    <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                                    <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-auto"><?= renderImg("slider-car-loans.png", "lib", "slider-img") ?></div>
+                        </div>
+                    </div>
+                    <div class="cards-wrapper">
+                        <div class="row">
+                            <div class="col">
+                                <div class="slider-card">
+                                    <div class="row justify-content-between g-0">
+                                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                                    </div>
+                                    <div class="row gx-0">
+                                        <div class="col-9">
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Competitive interest rates as low as 3.99%</div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="fs-11">
+                                                Flexible loan terms, tailored repayments, 40+ lenders
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="slider-card">
+                                    <div class="row justify-content-between g-0">
+                                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                                    </div>
+                                    <div class="row gx-0">
+                                        <div class="col-9">
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Easy online application</div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="fs-11">
+                                                quick turn-around time for an approval, you can be in your car within as little as 24 hours
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="slider-card">
+                                    <div class="row justify-content-between g-0">
+                                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                                    </div>
+                                    <div class="row gx-0">
+                                        <div class="col-9">
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">No deposit required</div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="fs-11">
+                                                no up-front costs at all and no hidden fees or charges for personal or car finance
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="slider-card">
+                                    <div class="row justify-content-between g-0">
+                                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                                    </div>
+                                    <div class="row gx-0">
+                                        <div class="col-9">
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">New and Used Vehicles</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="fs-11">
+                                                Exclusive access to the cheapest cars on the market. Don’t just fund your car with Affordable Funding, allow us to locate the right car for you too!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="slider-card">
+                                    <div class="row justify-content-between g-0">
+                                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                                    </div>
+                                    <div class="row gx-0">
+                                        <div class="col-12">
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Discounts for ABN Holders</div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="fs-11">
+                                                Exclusive discounts available on Business & Commercial Loans
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/footer.php'; ?>
