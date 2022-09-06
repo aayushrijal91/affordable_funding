@@ -107,6 +107,10 @@ section.about {
     .loans-slider-wrapper {
         padding: 56px 0;
 
+        .slick-slide {
+            margin: 0 4px;
+        }
+
         ul {
             display: flex;
             position: relative;
@@ -164,12 +168,29 @@ section.about {
 
                         .slider-img {
                             margin-top: -46px;
-                            padding-right: 95px;
+                        }
+                    }
+
+                    &.slider-2 {
+                        background: linear-gradient(93.66deg, #EB6D45 18.67%, #D36EFF 77.16%);
+                        border-radius: 44px;
+
+                        .slider-img {
+                            margin-top: -46px;
+                        }
+                    }
+
+                    &.slider-3 {
+                        background: linear-gradient(93.66deg, #D36EFF 18.67%, #742CFF 77.16%);
+                        border-radius: 44px;
+
+                        .slider-img {
+                            margin-top: -46px;
                         }
                     }
 
                     .slider-text {
-                        padding: 66px 68px 0;
+                        padding: 66px 0 0 68px;
                     }
                 }
 
@@ -184,6 +205,34 @@ section.about {
                         min-height: 263px;
                         padding: 21px 17px;
                         color: $primary-dark;
+                    }
+                }
+            }
+
+            .slick-dots {
+                padding: 0 85px;
+                
+                li {
+                    height: 10px;
+                    width: 85px;
+
+                    button {
+                        height: 10px;
+                        width: 85px;
+                        padding: 0;
+
+                        &::before {
+                            content: "";
+                            background: $primary-dark;
+                            height: 10px;
+                            width: 85px;
+                        }
+                    }
+
+                    &.slick-active {
+                        button::before {
+                            opacity: 0.5;
+                        }
                     }
                 }
             }
