@@ -169,14 +169,141 @@ include __DIR__ . '/header.php';
 
 <section class="lenders">
     <div class="lender-slider-1">
-        <div><?= renderImg("pepper-money.png","logo") ?></div>
-        <div><?= renderImg("anz.png","logo") ?></div>
-        <div><?= renderImg("westpac.png","logo") ?></div>
-        <div><?= renderImg("afs.png","logo") ?></div>
-        <div><?= renderImg("angle-finance.png","logo") ?></div>
-        <div><?= renderImg("macquarie.png","logo") ?></div>
-        <div><?= renderImg("latitude.png","logo") ?></div>
+        <div><?= renderImg("pepper-money.png", "logo") ?></div>
+        <div><?= renderImg("anz.png", "logo") ?></div>
+        <div><?= renderImg("westpac.png", "logo") ?></div>
+        <div><?= renderImg("afs.png", "logo") ?></div>
+        <div><?= renderImg("angle-finance.png", "logo") ?></div>
+        <div><?= renderImg("macquarie.png", "logo") ?></div>
+        <div><?= renderImg("latitude.png", "logo") ?></div>
+    </div>
+    <div class="lender-slider-2">
+        <div><?= renderImg("autopay.png", "logo") ?></div>
+        <div><?= renderImg("ume-loans.png", "logo") ?></div>
+        <div><?= renderImg("plenti.png", "logo") ?></div>
+        <div><?= renderImg("now-finance.png", "logo") ?></div>
+        <div><?= renderImg("liberty.png", "logo") ?></div>
+        <div><?= renderImg("moula.png", "logo") ?></div>
+        <div><?= renderImg("wisr.png", "logo") ?></div>
+    </div>
+    <div class="lender-slider-3">
+        <div><?= renderImg("branded-financial-services.png", "logo") ?></div>
+        <div><?= renderImg("loanu.png", "logo") ?></div>
+        <div><?= renderImg("grow.png", "logo") ?></div>
+        <div><?= renderImg("metro.png", "logo") ?></div>
+        <div><?= renderImg("financone.png", "logo") ?></div>
+        <div><?= renderImg("societyone.png", "logo") ?></div>
+        <div><?= renderImg("firstmac.png", "logo") ?></div>
     </div>
 </section>
 
+<section class="cta">
+    <div class="row gx-0 align-items-center">
+        <div class="col-lg-6">
+            <?= renderImg("protect-credit-scores.png", "lib", "w-100") ?>
+        </div>
+        <div class="col-lg-6 px-5 px-xxl-8">
+            <div class="fs-7 fw-800 text-tertiary">Simple & Secure Application Process</div>
+            <h3 class="fw-900 fs-3 text-primary-dark">Protect Your Credit Score</h3>
+            <div class="fs-10 text-black fw-700 py-4">Protect your credit score by matching with the best<br> lender the first time</div>
+            <div class="d-flex">
+                <a href="#form" class="text-primary fw-900 pe-2">Apply Now</a>
+                <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="#742CFF" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="row gx-0 align-items-center">
+        <div class="col-lg-6 px-1 text-end">
+            <div class="fs-7 fw-800 text-tertiary">Interest Rates from 3.99%*</div>
+            <h3 class="fw-900 fs-3 text-primary-dark">Lower Rates</h3>
+            <div class="fs-10 text-black fw-700 py-4">With access to 40+ Lenders, combined with our 20+<br> years’ experience allows us access to the lowest rates<br> and repayments on the market</div>
+            <div class="d-flex justify-content-end">
+                <a href="#form" class="text-primary fw-900 pe-2">Check Your Eligibility for Pre-Approval</a>
+                <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="#742CFF" />
+                </svg>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <?= renderImg("lower-rates.png", "lib", "w-100") ?>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <?= renderImg("we-work-for-you.png", "lib", "w-100") ?>
+            </div>
+            <div class="col-lg-6 col-xl-4">
+                <div class="fs-7 fw-800 text-tertiary">Speak directly with a Loan Specialist</div>
+                <h3 class="fw-900 fs-3 text-primary-dark">We Work For YOU</h3>
+                <div class="fs-10 text-black fw-700 py-4">We work for you, not the banks! We guarantee to find you the perfect loan, with the lowest rates, tailored to you, no matter your financial circumstance</div>
+                <div class="d-flex">
+                    <a href="#form" class="text-primary fw-900 pe-2">Access Your Personal Rate & Choose Your Loan</a>
+                    <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="#742CFF" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="introduction">
+    <div class="row gx-0">
+        <div class="col-lg-7 bg-tertiary">
+            <div class="row justify-content-center h-100 align-items-center">
+                <div class="col-lg-7">
+                    <h2 class="fs-2 fw-800 line-height-1 text-white"><span class="text-primary-dark">Fast, Simple, and Affordable</span> Funding, when you need it!</h2>
+                    <div class="text-white fs-11 fw-500 pe-xxl-4 py-4">
+                        We’re one of Australia’s most experienced and trusted finance providers. Based in Sydney, and servicing customers nation-wide, Affordable Funding delivers fast, simple, and flexible finance options, specialising in both Personal Asset Loans and Commercial Asset Finance.
+                    </div>
+                    <ul class="intro-loan-type-list">
+                        <li>Car Loans</li>
+                        <li>Personal Loans</li>
+                        <li>Leisure Loans</li>
+                        <li>Truck &amp; Equipment Loans</li>
+                        <li>Small Business Loans</li>
+                    </ul>
+                    <div class="row g-0 pt-4">
+                        <div class="col-auto">
+                            <div class="row g-0 bg-white rounded-pill">
+                                <div class="col-auto">
+                                    <a href="#form" class="btn btn-secondary-dark text-white fs-11 fw-700 rounded-pill line-height-1 py-4 px-6">Get a FREE Quote within minutes</a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="#form" class="btn text-primary-dark fs-11 fw-800 line-height-1 py-4 px-5">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row g-0">
+                <div class="col-6"><?= renderImg("intro-1.png", "lib") ?></div>
+                <div class="col-6 p-5">
+                    <?= renderImg("notes.png", "icons") ?>
+                    <div class="text-tertiary fs-5 line-height-1 fw-800 py-4">Deal Directly with a broker</div>
+                    <div class="font-ubuntu text-primary-dark fw-300 fs-11 pb-4">Apply Online or over the Phone in less than 5 minutes, and work our magic, and handle the rest!</div>
+                    <a href="#form" class="text-primary-dark fs-11 fw-900">Call Now, Talk directly with your Broker</a>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-6 bg-primary-dark p-5">
+                    <svg width="61" height="57" viewBox="0 0 61 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M29.5362 0C38.2299 0 45.3632 7.1591 45.3632 16.1364L45.3632 32.2728V40.4546L37.3383 32.2728L15.827 32.2728C7.02182 32.1591 0 25 0 16.1364C0 7.1591 7.02182 0 15.827 0L29.5362 0Z" fill="#742CFF" />
+                        <path d="M33.5489 20.4546C26.0812 20.4546 20.0625 26.591 20.0625 34.2046V47.9546L20.0625 55.0001L26.9729 47.9546H45.2519C52.7195 47.9546 58.7383 41.8182 58.7383 34.2046C58.7383 26.591 52.7195 20.4546 45.2519 20.4546H33.5489Z" fill="#EF7337" />
+                    </svg>
+                    <div class="text-primary fs-5 line-height-1 fw-800 py-4">Real People,<br> Real Support</div>
+                    <div class="font-ubuntu text-white fw-300 fs-11 pb-4">From finding you the perfect loan, to picking up the keys, and beyond… we’re with you every step of the way.</div>
+                    <a href="#form" class="text-white fs-11 fw-800">Chat Now</a>
+                </div>
+                <div class="col-6"><?= renderImg("intro-2.png", "lib") ?></div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php include __DIR__ . '/footer.php'; ?>

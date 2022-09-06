@@ -18,7 +18,7 @@ header {
 
 section.banner {
     background: linear-gradient($primary-dark, $primary-light, $white);
-    padding: 120px 0 64px;
+    padding: 120px 0 34px;
 
     .interest-plan {
         background-color: $primary-dark;
@@ -61,7 +61,11 @@ section.banner {
 }
 
 section.lenders {
-    .lender-slider-1 {
+    padding-bottom: 165px;
+
+    .lender-slider-1,
+    .lender-slider-2,
+    .lender-slider-3 {
         .slick-track {
             display: flex;
         }
@@ -71,7 +75,22 @@ section.lenders {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 1rem 0;
         }
+    }
+}
+
+section.cta {
+    background: imgUrl('cta.png') left top;
+    padding: 140px 0 262px;
+}
+
+section.introduction {
+    ul.intro-loan-type-list {
+        color: $white;
+        column-count: 2;
+        column-gap: 0;
+        padding-inline-start: 16px;
     }
 }
 

@@ -12,11 +12,40 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 
 $(() => {
     $('.lender-slider-1').slick({
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
         infinite: true,
+        centerMode: true,
+        centerPadding: "120px",
+        cssEase:"linear",
+        speed: 3000,
+        autoplaySpeed: 0
+    });
+    $('.lender-slider-2').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        centerMode: true,
+        centerPadding: "120px",
+        cssEase:"linear",
+        speed: 2000,
+        autoplaySpeed: 0
+    });
+    $('.lender-slider-3').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        centerMode: true,
+        centerPadding: "120px",
+        cssEase:"linear",
+        speed: 2500,
+        autoplaySpeed: 0
     });
 });
 
