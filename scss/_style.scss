@@ -211,7 +211,7 @@ section.about {
 
             .slick-dots {
                 padding: 0 85px;
-                
+
                 li {
                     height: 10px;
                     width: 85px;
@@ -235,6 +235,16 @@ section.about {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .rates-slider-wrapper {
+        .rates-slider {
+            &.slider-1 {
+                background: $quartinary;
+                padding: 45px 77px 30px;
+                border-radius: 27px;
             }
         }
     }

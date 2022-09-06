@@ -691,6 +691,26 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
+
+    <div class="rates-slider-wrapper">
+        <div class="container">
+            <div class="rates-slider slider-1">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <div class="text-primary fw-700 fs-6">Competitive Rates As Low As</div>
+                        <div class="row align-items-end gx-3">
+                            <div class="col-auto">
+                                <div class="fs-1 fw-700 text-primary line-height-1">3.99%</div>
+                            </div>
+                            <div class="col pb-3 fs-9 fw-700 text-black">
+                                Start-to-finish process<br> in as little as 24 hours
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include __DIR__ . '/footer.php'; ?>
