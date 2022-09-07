@@ -694,18 +694,288 @@ include __DIR__ . '/header.php';
 
     <div class="rates-slider-wrapper">
         <div class="container">
-            <div class="rates-slider slider-1">
-                <div class="row justify-content-between">
-                    <div class="col-auto">
-                        <div class="text-primary fw-700 fs-6">Competitive Rates As Low As</div>
-                        <div class="row align-items-end gx-3">
-                            <div class="col-auto">
-                                <div class="fs-1 fw-700 text-primary line-height-1">3.99%</div>
-                            </div>
-                            <div class="col pb-3 fs-9 fw-700 text-black">
-                                Start-to-finish process<br> in as little as 24 hours
+            <div class="rates-slider">
+                <div class="rates-slider-content slider-1">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-auto">
+                            <div class="text-primary fw-700 fs-6">Competitive Rates As Low As</div>
+                            <div class="row align-items-end gx-3">
+                                <div class="col-auto">
+                                    <div class="fs-1 fw-700 text-primary line-height-1">3.99%</div>
+                                </div>
+                                <div class="col pb-3 fs-9 fw-700 text-black">
+                                    Start-to-finish process<br> in as little as 24 hours
+                                </div>
                             </div>
                         </div>
+                        <div class="col-3">
+                            <a href="#form" class="btn d-block btn-primary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
+                        </div>
+                        <div class="col-3 position-relative">
+                            <?= renderImg("percentage.png", "lib", "percentage-img") ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="rates-slider-content slider-2">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-5">
+                            <div class="text-tertiary fw-800 fs-4">Bad Credit? <span class="text-italic fw-700">No Problem!</span></div>
+                            <div class="text-white fw-800 fs-9">
+                                No matter your personal circumstance, credit history, or financial needs; have confidence in allowing our team of loan experts and technology, to get you approved!
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#form" class="btn d-block btn-primary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
+                        </div>
+                        <div class="col-auto position-relative">
+                            <?= renderImg("speedometer.png", "lib", "") ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta-2">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-3">
+                    <div class="row align-items-center">
+                        <div class="col-auto"><?= renderImg('cta-verified.png', "lib") ?></div>
+                        <div class="col">
+                            <div class="fs-5 fw-900 line-height-1 text-primary-dark">Vehicle<br>Warranty</div>
+                        </div>
+                        <div class="col-12 text-primary-dark fs-10 fw-600 pt-3">Bundle & Save with our Premium Discounts on Warranties and Roadside </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row align-items-center">
+                        <div class="col-auto"><?= renderImg('cta-percentage.png', "lib") ?></div>
+                        <div class="col">
+                            <div class="fs-5 fw-900 line-height-1 text-primary-dark">Vehicle<br>Insurance</div>
+                        </div>
+                        <div class="col-12 text-primary-dark fs-10 fw-600 pt-3">Bundle & Save with our Premium Discounts on all Insurance Products</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row align-items-center">
+                        <div class="col-auto"><?= renderImg('cta-certified.png', "lib") ?></div>
+                        <div class="col">
+                            <div class="fs-5 fw-900 line-height-1 text-primary-dark">Vehicle<br>Search</div>
+                        </div>
+                        <div class="col-12 text-primary-dark fs-10 fw-600 pt-3">With access to a large network of Car Dealerships & Wholesalers, we can help find your new car or trade-in the old one.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq">
+        <?= renderImg("faq-img.png", "lib", "faq-img") ?>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-6">
+                    <div class="accordion-container">
+                        <div class="accordion-card">
+                            <div class="accordion-head active">
+                                <div class="main-question">What are the current interest rates?</div>
+                                <div class="plusminus">-</div>
+                            </div>
+                            <div class="accordion-body" style="display: block;">
+                                Affordable Funding has access to interest rates as low as 4.95% over a wide range of finance products across many banks and lenders. The rate will vary depending on each individual client’s profile, as well as the lender in which they are approved.
+                            </div>
+                        </div>
+                        <div class="accordion-card">
+                            <div class="accordion-head">
+                                <div class="main-question">How quickly can I get my new car?</div>
+                                <div class="plusminus">+</div>
+                            </div>
+                            <div class="accordion-body">
+                                From the moment we take an application we can have an approval generated within the hour and the complete process finalized within 24 hours.
+                            </div>
+                        </div>
+                        <div class="accordion-card">
+                            <div class="accordion-head">
+                                <div class="main-question">Am I eligible for finance?</div>
+                                <div class="plusminus">+</div>
+                            </div>
+                            <div class="accordion-body">
+                                Whether you have bad credit, are on a pension, or have previous bankruptcies, if there is an option available Affordable Funding is confident that we can provide all customers with a finance product that will suit their individual needs.
+                            </div>
+                        </div>
+                        <div class="accordion-card">
+                            <div class="accordion-head">
+                                <div class="main-question">What extras can I add to my loan?</div>
+                                <div class="plusminus">+</div>
+                            </div>
+                            <div class="accordion-body">
+                                There are a variety of different products that can be added into your loan including, but not limited to, all insurance and warranty products, negative equity, registration costs, banking fees, and after-market upgrades. Feel free to let your Affordable Funding representative know and they will be sure to include it into the loan.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="container pb-5">
+            <div class="text-center text-primary-dark fs-5 fw-900">Over 10,000 Loans Approved</div>
+            <div class="text-center text-primary-dark fs-9 line-height-2">Read our Google Reviews from our many happy customers</div>
+            <div class="text-center py-3"><?= renderImg("5stars.png", "lib") ?></div>
+        </div>
+        <div class="testimonial-slider testimonial-slider-1">
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-slider testimonial-slider-2">
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="row align-items-center">
+                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                    <div class="col">
+                        <div class="username">Craig Ford</div>
+                        <div class="date">A month ago</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
+                </div>
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                        <div class="verified">verified google review</div>
                     </div>
                 </div>
             </div>
