@@ -49,10 +49,10 @@ body {
 //Go To Top
 #return-to-top {
     position: fixed;
-    bottom: 95px;
-    right: 13px;
-    z-index: 9;
-    background: $primary;
+    bottom: 48px;
+    right: 48px;
+    z-index: 100;
+    background: $tertiary;
     width: 50px;
     height: 50px;
     display: block;
@@ -61,11 +61,11 @@ body {
     -moz-border-radius: 35px;
     border-radius: 35px;
     display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 #return-to-top img {
@@ -73,11 +73,11 @@ body {
     position: relative;
     left: 13px;
     top: 10px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 #return-to-top:hover {

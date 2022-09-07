@@ -21,7 +21,16 @@ $(() => {
         centerPadding: "120px",
         cssEase: "linear",
         speed: 3000,
-        autoplaySpeed: 0
+        autoplaySpeed: 0,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "20px"
+                }
+            }
+        ]
     });
     $('.lender-slider-2').slick({
         slidesToShow: 6,
@@ -33,7 +42,16 @@ $(() => {
         centerPadding: "120px",
         cssEase: "linear",
         speed: 2000,
-        autoplaySpeed: 0
+        autoplaySpeed: 0,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "20px"
+                }
+            }
+        ]
     });
     $('.lender-slider-3').slick({
         slidesToShow: 6,
@@ -45,7 +63,16 @@ $(() => {
         centerPadding: "120px",
         cssEase: "linear",
         speed: 2500,
-        autoplaySpeed: 0
+        autoplaySpeed: 0,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "20px"
+                }
+            }
+        ]
     });
 
     $('.loans-slider-wrapper ul li.slide').width($('.loans-slider-wrapper ul li:nth-child(1)').width());
@@ -103,6 +130,14 @@ $(() => {
         autoplay: true,
         speed: 1500,
         centerPadding: "120px",
+        responsive: [{
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: 0,
+                centerMode: false,
+            }
+        }]
     });
 
     $('.testimonial-slider-2').slick({
@@ -113,6 +148,14 @@ $(() => {
         speed: 2500,
         autoplay: true,
         centerPadding: "160px",
+        responsive: [{
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: 0,
+                centerMode: false,
+            }
+        }]
     });
 });
 

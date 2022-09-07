@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-12 pt-5 pb-4">
 				<div class="row justify-content-between">
-					<div class="col-3">
+					<div class="col-md-3">
 						<div class="text-uppercase fw-700">Quick Links</div>
 						<ul class="quick-links">
 							<li><a href="" class="text-white fs-12">Types of Loans</a></li>
@@ -37,12 +37,12 @@
 							<div class="col-auto"><a href=""><?= renderImg("google-map.png", "icons", "social-icon") ?></a></div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-md-4">
 						<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26517.018106732667!2d150.9237568!3d-33.821930800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12978bffdefee7%3A0x5017d68163343f0!2sPemulwuy%20NSW%202145!5e0!3m2!1sen!2sau!4v1662516134351!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
 						<div class="text-dark">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 					</div>
-					<div class="col-4">
+					<div class="col-md-4">
 						<div class="license"><span class="fw-700">ABN</span> 55 618 511 158</div>
 						<div class="license pt-3"><span class="fw-700">Australian Credit License</span> 517685</div>
 						<div class="row justify-content-between align-items-center py-4">
