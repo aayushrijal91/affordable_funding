@@ -106,13 +106,13 @@ $(() => {
     });
 
     $('.testimonial-slider-2').slick({
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
         arrows: false,
-        speed: 2000,
+        speed: 2500,
         autoplay: true,
-        centerPadding: "260px",
+        centerPadding: "160px",
     });
 });
 

@@ -343,7 +343,7 @@ section.about {
 
     .testimonials {
         padding-bottom: 60px;
-        
+
         .testimonial-slider {
             .slick-slide {
                 margin: 19px 15px;
@@ -382,7 +382,7 @@ section.about {
                 }
 
                 .verified {
-                    color: rgba(0,0,0,0.5);
+                    color: rgba(0, 0, 0, 0.5);
                     text-transform: uppercase;
                 }
             }
@@ -390,11 +390,90 @@ section.about {
     }
 }
 
-footer {
-    font-size: 0.875rem;
-    background-color: #221f1f;
+footer {    
+    padding: 113px 0 66px;
+    background: imgUrl('footer-top.png') right 146px $primary;
+    color: $white;
+    
+    ul.quick-links {
+        padding-inline-start: 0;
+        padding-top: 31px;
 
-    @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
+        li {
+            list-style: none;
+            padding: 7px 0;
+
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+
+    .social-icon {
+        box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08);
+    }
+
+    .google-map {
+        border-radius: 31px;
+        width: 70%;
+        height: 201px;
+    }
+
+    .google-map-title {
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .license {
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+
+    .newsletter-header {
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .newsletter-form {
+        display: flex;
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+
+        input {
+            border: 0;
+            background: none;
+            font-size: 0.75rem;
+            color: $white;
+            letter-spacing: 1px;
+
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            &:focus {
+                background: none;
+                box-shadow: none;
+                outline: none;
+                color: $white;
+            }
+        }
+    }
+
+    hr {
+        background-color: $white;
+        opacity: 1;
+    }
+
+    .contact-us-button {
+        border-radius: 20px;
+        height: 48px;
+        background: $white;
+        color: $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
