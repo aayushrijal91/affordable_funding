@@ -53,6 +53,7 @@ $(() => {
             }
         ]
     });
+
     $('.lender-slider-3').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -75,9 +76,18 @@ $(() => {
         ]
     });
 
+    let loanSliderSm = $('.loans-slider-sm').slick({
+        slidesToShow: 1,
+        arrows: false,
+    });
+
+    $('.sm-nav-btn').on('click', function() {
+        loanSliderSm.slick('slickGoTo', $(this).attr('slideTarget'));
+    });
+
     $('.loans-slider-wrapper ul li.slide').width($('.loans-slider-wrapper ul li:nth-child(1)').width());
 
-    var loanSlider = $('.loans-slider').slick({
+    let loanSlider = $('.loans-slider').slick({
         slidesToShow: 1,
         arrows: false,
         draggable: false,

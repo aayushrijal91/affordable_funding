@@ -292,6 +292,74 @@ section.about {
         padding-top: 231px;
     }
 
+    .loans-slider-wrapper-sm {
+        padding: 56px 0;
+
+        .loans-slider-sm {
+            .slick-track {
+                display: flex;
+            }
+
+            .slick-slide {
+                height: inherit;
+                margin: 0 12px;
+            }
+
+            .loans-slider-sm-content {
+                border-radius: 41px;
+                padding: 56px 33px 56px 15px;
+
+                .loan-nav-wrapper {
+                    border-right: 1px solid $white;
+                }
+                
+                .loans-slider-nav-sm {
+                    a.sm-nav-btn {
+                        writing-mode: vertical-rl;
+                        -webkit-writing-mode: vertical-rl;
+                        color: $white;
+                        text-decoration: none;
+                        transform: rotateX(180deg) rotateY(180deg);
+                        text-align: center;
+                        font-weight: 700;
+
+                        &.active {
+                            background: $white;
+                            border-radius: 30px;
+                            color: $primary-dark;
+                            padding: 24px 8px;
+                        }
+                    }
+                }
+                
+                &.slider-1 {
+                    background: linear-gradient(168.34deg, #752DFF 4.18%, #9F4BFF 100%);
+                }
+
+                &.slider-2 {
+                    background: linear-gradient(168.34deg, #EB6D46 4.18%, #D46EFF 100%);
+                }
+
+                &.slider-3 {
+                    background: linear-gradient(168.34deg, #D36EFF 4.18%, #752CFF 100%);
+                }
+
+                .heroHeading {
+                    font-size: 2.25rem;
+                    font-weight: 800;
+                    color: $white;
+                    line-height: 1.14;
+                }
+
+                .description {
+                    font-size: 1rem;
+                    color: $white;
+                    line-height: 1.625;
+                }
+            }
+        }
+    }
+
     .loans-slider-wrapper {
         padding: 56px 0;
 
@@ -451,7 +519,7 @@ section.about {
                             width: 100%;
                         }
                     }
-                    
+
                     .hero-percentage {
                         font-size: 6rem;
                     }

@@ -451,7 +451,115 @@ include __DIR__ . '/header.php';
             <div class="col-6 d-none d-md-block"><?= renderImg("about.png", "lib", "w-100") ?></div>
         </div>
     </div>
-    <div class="loans-slider-wrapper">
+
+    <!-- Loans type slider for mobile screens -->
+    <div class="loans-slider-wrapper-sm d-md-none">
+        <div class="loans-slider-sm">
+            <div class="loans-slider-sm-content slider-1">
+                <div class="row justify-content-end h-100">
+                    <div class="col-2 loan-nav-wrapper" >
+                        <div class="row align-items-around justify-content-center loans-slider-nav-sm h-100">
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn" slideTarget="2">Personal Loans</a>
+                            </div>
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn" slideTarget="1">Commercial Asset Finance</a>
+                            </div>
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn active" slideTarget="3">Car Loans</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-between flex-column h-inherit">
+                        <div>
+                            <div class="heroHeading">Car<br>Loans</div>
+                            <div class="description pt-3">
+                                <p>With our huge network and long-term relationships with the best car finance lenders in the country, we connect credit conscious Australians with much lower interest rates and flexible loan options.</p>
+                                <p>Affordable Funding is a true market leader when it comes to Car Loans, guaranteeing to deliver the perfect loan to suit your car buying needs.</p>
+                            </div>
+                            <?= renderImg("slider-car-loans.png", "lib") ?>
+                        </div>
+                        <div class="d-flex pt-3">
+                            <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                            <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="loans-slider-sm-content slider-2">
+                <div class="row justify-content-end h-100">
+                    <div class="col-2 loan-nav-wrapper">
+                        <div class="row align-items-around justify-content-center loans-slider-nav-sm h-100">
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn" slideTarget="2">Personal Loans</a>
+                            </div>
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn active" slideTarget="1">Commercial Asset Finance</a>
+                            </div>
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn" slideTarget="3">Car Loans</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 d-flex justify-content-between flex-column h-inherit">
+                        <div>
+                            <div class="heroHeading">Commercial<br>Asset Finance</div>
+                            <div class="description pt-3">
+                                <p>Having operated for over 15 years and as a continuously growing business, Affordable Funding understands the importance of access to simple and fast finance.</p>
+                                <p>Whether you’re an ABN Holder buying the new family car, a Sole Trader wanting to purchase a small truck, or a large company expanding its fleet of equipment and machinery; we’re with you every step of the way.</p>
+                            </div>
+                            <?= renderImg("slider-commercial-asset-finance.png", "lib", "slider-img") ?>
+                        </div>
+                        <div class="d-flex pt-3">
+                            <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                            <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="loans-slider-sm-content slider-3">
+                <div class="row justify-content-end h-100">
+                    <div class="col-2 loan-nav-wrapper">
+                        <div class="row align-items-around justify-content-center loans-slider-nav-sm h-100">
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn active" slideTarget="2">Personal Loans</a>
+                            </div>
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn" slideTarget="1">Commercial Asset Finance</a>
+                            </div>
+                            <div class="col-auto d-flex align-items-center">
+                                <a href="javascript:void(0)" class="sm-nav-btn" slideTarget="3">Car Loans</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 d-flex justify-content-between flex-column h-inherit">
+                        <div>
+                            <div class="heroHeading">Personal<br>Loans</div>
+                            <div class="description pt-3">
+                                <p>Affordable Funding is a true market leader when it comes to providing quick, easy, and low rate Personal Loans, guaranteeing to deliver the perfect solution no matter your circumstance, financial history, or lending requirements.</p>
+                                <p>Whether you need a personal loan for a Holiday, Wedding, Jewellery, Refinancing, or just in need of extra Cash, we’ll find you the right solutions and we’re with you every step of the way!</p>
+                            </div>
+                            <?= renderImg("slider-personal-loans.png", "lib", "slider-img") ?>
+                        </div>
+                        <div class="d-flex pt-3">
+                            <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                            <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loans type slider for larger screens -->
+    <div class="loans-slider-wrapper d-none d-md-block">
         <div class="container">
             <ul class="loans-slider-nav">
                 <li class="active"><a href="javascript:void(0)" class="btn fs-12 fw-700 text-primary-dark loan-slider-btn" slideTarget="0">Car Loans</a></li>
