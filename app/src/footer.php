@@ -1,7 +1,7 @@
 <footer>
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-lg-11 col-xl-12 col-xxl-11">
+			<div class="col-11 col-xl-12 col-xxl-11">
 				<div class="row">
 					<div class="col-xl-8" data-aos="fade-right">
 						<div class="row">
@@ -27,7 +27,42 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 pt-5 pb-4" data-aos="fade-up">
+					<div class="col-12 pt-4 d-md-none">
+						<a href="javascript:void(0)" id="quick-link-btn" class="btn text-white text-uppercase py-0 fw-700 text-center d-block">
+							Quick Links <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L8 8L15 1" stroke="white" />
+							</svg>
+						</a>
+						<ul class="quick-links" id="quick-links-sm">
+							<li><a href="" class="text-white fs-12">Types of Loans</a></li>
+							<li><a href="" class="text-white fs-12">About Us</a></li>
+							<li><a href="" class="text-white fs-12">Lenders</a></li>
+							<li><a href="" class="text-white fs-12">Apply Now</a></li>
+							<li><a href="" class="text-white fs-12">Contact Us</a></li>
+						</ul>
+						<hr>
+						<a href="javascript:void(0)" id="map-display-btn-sm" class="btn text-white text-uppercase py-0 fw-700 text-center d-block">
+							Contact <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L8 8L15 1" stroke="white" />
+							</svg>
+						</a>
+						<div class="map-wrapper-sm">
+							<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26517.018106732667!2d150.9237568!3d-33.821930800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12978bffdefee7%3A0x5017d68163343f0!2sPemulwuy%20NSW%202145!5e0!3m2!1sen!2sau!4v1662516134351!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
+							<div class="text-light">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
+
+							<form action="./src/form" method="post" class="newsletter-form mt-4">
+								<input type="email" class="form-control" placeholder="Email address" required>
+								<button type="submit" class="btn">
+									<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
+									</svg>
+								</button>
+							</form>
+							<div class="fs-14 text-white pt-3 fw-300">*Subscribe to our newsletter to receive communications and early updates from Affordable Funding</div>
+						</div>
+					</div>
+					<div class="col-12 pt-5 pb-4">
 						<div class="row justify-content-center justify-content-xl-between">
 							<div class="col-md-6 col-lg-5 col-xl-3 d-none d-md-block">
 								<div class="text-uppercase fw-700">Quick Links</div>
@@ -50,7 +85,7 @@
 							<div class="col-md-6 col-lg-7 col-xl-4 d-none d-md-block">
 								<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26517.018106732667!2d150.9237568!3d-33.821930800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12978bffdefee7%3A0x5017d68163343f0!2sPemulwuy%20NSW%202145!5e0!3m2!1sen!2sau!4v1662516134351!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
-								<div class="text-dark">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
+								<div class="text-light">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 							</div>
 							<div class="col-lg-8 col-xl-4 col-xxl-auto pt-md-6">
 								<div class="license"><span class="fw-700">ABN</span> 55 618 511 158</div>
@@ -83,30 +118,32 @@
 							</div>
 						</div>
 					</div>
-					<hr>
-					<div class="row copyright">
-						<div class="col-xl-7">
-							<div class="row justify-content-between align-items-center fw-300 py-md-4">
-								<div class="col-auto">Copyright <?= date('Y') ?></div>
-								<div class="col-auto"><?= $site ?> All Right Reserved</div>
-								<div class="col-auto">Privacy Policies</div>
-								<div class="col-auto">Terms &amp; Conditions</div>
+					<div class="col-12">
+						<hr>
+						<div class="row copyright">
+							<div class="col-xl-7">
+								<div class="row justify-content-between align-items-center fw-300 py-md-4">
+									<div class="col-auto">Copyright <?= date('Y') ?></div>
+									<div class="col-auto"><?= $site ?> All Right Reserved</div>
+									<div class="col-auto">Privacy Policies</div>
+									<div class="col-auto">Terms &amp; Conditions</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row justify-content-between pt-4 align-items-center">
-						<div class="col-5 col-md-auto order-2 order-md-1">
-							<?= renderImg("footer-logo.png", "logo") ?>
-						</div>
-						<div class="col-5 col-md-auto order-1 order-md-2">
-							<div class="row align-items-center gx-5">
-								<div class="col-auto">
-									<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-										<?= renderImg("aiims.png", "logo") ?>
-									</a>
-								</div>
-								<div class="col-auto d-none d-md-block">
-									<a href="#form" class="btn py-2 px-6 contact-us-button">Contact Us</a>
+						<div class="row justify-content-between pt-4 align-items-center">
+							<div class="col-5 col-md-auto order-2 order-md-1">
+								<?= renderImg("footer-logo.png", "logo") ?>
+							</div>
+							<div class="col-5 col-md-auto order-1 order-md-2">
+								<div class="row align-items-center gx-5">
+									<div class="col-auto">
+										<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+											<?= renderImg("aiims.png", "logo") ?>
+										</a>
+									</div>
+									<div class="col-auto d-none d-md-block">
+										<a href="#form" class="btn py-2 px-6 contact-us-button">Contact Us</a>
+									</div>
 								</div>
 							</div>
 						</div>

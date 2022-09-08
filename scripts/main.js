@@ -166,7 +166,7 @@ $(() => {
         slidesToScroll: 1,
         centerMode: true,
         arrows: false,
-        autoplay: true,
+        // autoplay: true,
         speed: 1500,
         centerPadding: "120px",
         responsive: [
@@ -201,7 +201,7 @@ $(() => {
         arrows: false,
         speed: 2500,
         autoplay: true,
-        centerPadding: "160px",
+        centerPadding: "120px",
         responsive: [
             {
                 breakpoint: 1560,
@@ -213,7 +213,6 @@ $(() => {
                 breakpoint: 1100,
                 settings: {
                     slidesToShow: 1,
-                    centerPadding: "120px",
                 }
             },
             {
@@ -228,6 +227,15 @@ $(() => {
     });
 
     AOS.refresh();
+
+    $("#quick-link-btn").on('click', function() {
+        $("#quick-links-sm").slideToggle();
+    });
+
+    $("#map-display-btn-sm").on('click', function() {
+        $(".map-wrapper-sm").slideToggle();
+    });
+    
 });
 
 

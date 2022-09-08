@@ -1145,6 +1145,72 @@ include __DIR__ . '/header.php';
     </div>
 
     <div class="testimonials">
+        <?php
+        $testimonial_1 = [
+            [
+                "user" => "Tara Howlett",
+                "date" => "3 months ago",
+                "comment" => "<p>Anthony was an amazing help! Anything I had an issue on, he was very accommodating. I started my application on Sunday afternoon and by Monday late afternoon I was approved for my car loan. Would recommend Anthony in a heart beat! The whole experience was smooth and easy and great customer service! I will 100% be using Anthony and his company again if I need anything in the future.</p>Again thank you!!",
+            ],
+            [
+                "user" => "Graeme Jenkins",
+                "date" => "3 months ago",
+                "comment" => "I'm very happy that I got assigned 1 person to deal with from the start, who I could text, email and call directly, and is based in Australia. He also made the whole process so easy for me. Dealing with lenders directly can be difficult. I highly recommend Affordable Funding, and in particular Josh, he was excellent"
+            ],
+            [
+                "user" => "James Slater",
+                "date" => "5 months ago",
+                "comment" => "My experience with Affordable Funding - Car Finance Sydney was beyond expectations. The service and staff are both amazing. Gustavo was a godsend, a genuinely welcoming and very easy person to talk to, making for a very comfortable and trusting experience, he went above and beyond to help me with getting the best possible finance and achieved it unbelievably fast. It was amazing to say the least. HIGHLY RECOMMENDED"
+            ],
+            [
+                "user" => "Geraldine Ryland",
+                "date" => "6 months ago",
+                "comment" => "<p>The best thing about Affordable Funding? The lady who answered my call! Jess was not only professional and willing to go the extra mile to find me the best loan options and lowest interest rates, she was also very personable, patient and generous with her time. Her email correspondence arrived almost immediately, with clear instructions on how to proceed.</p>I would highly recommend AF to anyone seeking a loan and I would also highly recommend Jess. She's a diamond!"
+            ],
+            [
+                "user" => "Craig Ford",
+                "date" => "2 months ago",
+                "comment" => "We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again."
+            ],
+            [
+                "user" => "Maufi Moraho",
+                "date" => "5 months ago",
+                "comment" => "Great experience had with Affordable Funding. Especially Anthony Di Martino who made the whole process quick and easy took less than 4 business days to get me what I needed everything from start to finish were clearly communicated. Definitely recommend Affordable Funding n again Anthony to anyone looking for finance. Totally HAPPY with service"
+            ]
+        ];
+
+        $testimonial_2 = [
+            [
+                "user" => "Winvie Mendoza",
+                "date" => "2 months ago",
+                "comment" => "Can’t say enough about their level of customer service. Anthony is an absolute legend! He always made sure I had visibility and understanding of every step in the process. He also turned things around very quickly. Would definitely consider them for financing needs in the future."
+            ],
+            [
+                "user" => "Esi Taukiuvea",
+                "date" => "3 months ago",
+                "comment" => "Gus was an absolute pleasure to deal with! Was very responsive, had the ball rolling very quick & company vehicle approved in next to no time. Will definitely refer family & friends and highly recommend Affordable Funding."
+            ],
+            [
+                "user" => "Sarah Hurst",
+                "date" => "2 months ago",
+                "comment" => "Wow! What a great experience! No stress and Gus found me an excellent finance deal. Very happy with the process and the end result and can't wait to pick up my new car :D Thank you!"
+            ],
+            [
+                "user" => "Dante Tatai-Sa",
+                "date" => "a month ago",
+                "comment" => "<p>Just want to thank Gus from Affordable funding was very competent,professional and also friendly. Gus went above and beyond to reach our end goal and he reached it successfully. If anyone is looking a great person to deal with these things definitely refer Gus.</p>Thanks Again"
+            ],
+            [
+                "user" => "Elish Tiffen",
+                "date" => "a week ago",
+                "comment" => "<p>My experience with affordable funding was made super easy and enjoyable. I dealt with Eric Nak and he was honestly very the best. I could not recommend him more. He went above and beyond to get me the best deal possible to purchase a new car.</p>Thankyou so much Eric for allowing me to purchase my dream car"
+            ],
+            [
+                "user" => "Peter Stoneley",
+                "date" => "5 months ago",
+                "comment" => "<p>Highly recommend using affordable funding. I dealt with Gus throughout the application process. His communication skills are amazing. He always kept me well informed of the progress of application and even called out of business hours to keep me updated.</p> Highly recommend and will be using his service again in the future."
+            ],
+        ]; ?>
         <div class="container pb-4 pb-md-5">
             <div class="text-center pb-2 d-md-none"><?= renderImg("5stars.png", "lib", 'testimonial-star') ?></div>
             <div class="text-center text-primary-dark fs-5 fw-900 heroHeading">Over 10,000 Loans Approved</div>
@@ -1152,160 +1218,54 @@ include __DIR__ . '/header.php';
             <div class="text-center py-3 d-none d-md-block"><?= renderImg("5stars.png", "lib", 'testimonial-star') ?></div>
         </div>
         <div class="testimonial-slider testimonial-slider-1">
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
+            <?php foreach ($testimonial_1 as $testimonial) { ?>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                            <div class="col">
+                                <div class="username"><?= $testimonial['user'] ?></div>
+                                <div class="date"><?= $testimonial['date'] ?></div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <?= $testimonial['comment'] ?>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                        <div class="col-auto">
+                            <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                            <div class="verified">verified google review</div>
+                        </div>
                     </div>
                 </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
         <div class="testimonial-slider testimonial-slider-2">
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
+            <?php foreach ($testimonial_2 as $testimonial) { ?>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
+                            <div class="col">
+                                <div class="username"><?= $testimonial['user'] ?></div>
+                                <div class="date"><?= $testimonial['date'] ?></div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <?= $testimonial['comment'] ?>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
+                        <div class="col-auto">
+                            <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
+                            <div class="verified">verified google review</div>
+                        </div>
                     </div>
                 </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-center align-items-md-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="row align-items-center">
-                    <div class="col-auto"><?= renderImg("craig.png", "lib") ?></div>
-                    <div class="col">
-                        <div class="username">Craig Ford</div>
-                        <div class="date">A month ago</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    We had an exceptional experience with Affordable Funding. Gus bent over backwards to arrange all our needs. Was great to talk to a real, genuine polite professional. I would recommend using Affordable Funding to anyone looking for there expertise. Thanks again.
-                </div>
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-5"><?= renderImg("5stars.png", "lib", "py-2") ?></div>
-                    <div class="col-auto">
-                        <div class="d-flex justify-content-end"><?= renderImg('google.png', "icons") ?></div>
-                        <div class="verified">verified google review</div>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
 </section>
