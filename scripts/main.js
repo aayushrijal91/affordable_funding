@@ -1,4 +1,4 @@
-// AOS.init({ duration: 1500 });
+AOS.init({ duration: 700 });
 
 document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
@@ -97,6 +97,8 @@ $(() => {
         ]
     });
 
+    AOS.refresh();
+
     let loanSliderSm = $('.loans-slider-sm').slick({
         slidesToShow: 1,
         arrows: false,
@@ -115,6 +117,8 @@ $(() => {
         dots: true,
     });
 
+    AOS.refresh();
+
     $('.loan-slider-btn').on('click', function () {
         $(this).parents('li').siblings().removeClass("active");
         $(this).parents('li').addClass('active');
@@ -129,12 +133,16 @@ $(() => {
         loanSlider.slick('slickGoTo', $(this).attr('slideTarget'));
     });
 
+    AOS.refresh();
+
     $('.rates-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         // autoplay: true,
     });
+
+    AOS.refresh();
 
     $(".accordion-head").on('click', function () {
         $(".accordion-head").removeClass("active");
@@ -218,6 +226,8 @@ $(() => {
             }
         ]
     });
+
+    AOS.refresh();
 });
 
 

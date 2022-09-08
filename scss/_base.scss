@@ -2,6 +2,10 @@ img {
     max-width: 100%;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: $font-body;
     overflow-x: hidden;

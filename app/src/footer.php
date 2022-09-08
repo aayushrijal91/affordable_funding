@@ -3,7 +3,7 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-11 col-xl-12 col-xxl-11">
 				<div class="row">
-					<div class="col-xl-8">
+					<div class="col-xl-8" data-aos="fade-right">
 						<div class="row">
 							<div class="col-12 fs-2 fw-700 line-height-3 heroHeading">Fast, Simple, and Affordable Funding, when you need it!</div>
 							<div class="col-xl-8 line-height-2 fs-8 subHeading">Apply Online or over the Phone in less than 5 minutes, and work our magic, and handle the rest!</div>
@@ -27,7 +27,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 pt-5 pb-4">
+					<div class="col-12 pt-5 pb-4" data-aos="fade-up">
 						<div class="row justify-content-center justify-content-xl-between">
 							<div class="col-md-6 col-lg-5 col-xl-3 d-none d-md-block">
 								<div class="text-uppercase fw-700">Quick Links</div>
