@@ -50,7 +50,7 @@
 						<div class="map-wrapper-sm">
 							<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26517.018106732667!2d150.9237568!3d-33.821930800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12978bffdefee7%3A0x5017d68163343f0!2sPemulwuy%20NSW%202145!5e0!3m2!1sen!2sau!4v1662516134351!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 							<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
-							<div class="text-light">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
+							<div class="text-light fw-300">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 
 							<form action="./src/form" method="post" class="newsletter-form mt-4">
 								<input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse">
@@ -85,9 +85,9 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-7 col-xl-4 d-none d-md-block">
-								<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26517.018106732667!2d150.9237568!3d-33.821930800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12978bffdefee7%3A0x5017d68163343f0!2sPemulwuy%20NSW%202145!5e0!3m2!1sen!2sau!4v1662516134351!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								<iframe class="google-map pb-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26517.018106732667!2d150.9237568!3d-33.821930800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12978bffdefee7%3A0x5017d68163343f0!2sPemulwuy%20NSW%202145!5e0!3m2!1sen!2sau!4v1662516134351!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
-								<div class="text-light">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
+								<div class="text-light fw-300">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 							</div>
 							<div class="col-lg-8 col-xl-4 col-xxl-auto pt-md-6 pt-xl-0">
 								<div class="license"><span class="fw-700">ABN</span> 55 618 511 158</div>
