@@ -820,38 +820,42 @@ include __DIR__ . '/header.php';
             <div class="rates-slider">
                 <div class="rates-slider-content slider-1">
                     <div class="row justify-content-between align-items-center">
+                        <div class="col-6 d-md-none">
+                            <?= renderImg("percentage.png", "lib", "percentage-img") ?>
+                        </div>
                         <div class="col-auto">
-                            <div class="text-primary fw-700 fs-6">Competitive Rates As Low As</div>
+                            <div class="text-primary fw-700 fs-6 heroHeading">Competitive Rates As Low As</div>
                             <div class="row align-items-end gx-3">
-                                <div class="col-auto">
-                                    <div class="fs-1 fw-700 text-primary line-height-1">3.99%</div>
-                                </div>
-                                <div class="col pb-3 fs-9 fw-700 text-black">
+                                <div class="col-md-auto fw-700 text-primary line-height-1 hero-percentage">3.99%</div>
+                                <div class="col pb-3 fs-9 fw-900 text-black">
                                     Start-to-finish process<br> in as little as 24 hours
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 pt-3 pt-md-0">
                             <a href="#form" class="btn d-block btn-primary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
                         </div>
-                        <div class="col-3 position-relative">
+                        <div class="col-3 position-relative d-none d-md-block">
                             <?= renderImg("percentage.png", "lib", "percentage-img") ?>
                         </div>
                     </div>
                 </div>
                 <div class="rates-slider-content slider-2">
                     <div class="row justify-content-between align-items-center">
-                        <div class="col-5">
-                            <div class="text-tertiary fw-800 fs-4">Bad Credit? <span class="text-italic fw-700">No Problem!</span></div>
-                            <div class="text-white fw-800 fs-9">
+                        <div class="col-auto d-md-none">
+                            <?= renderImg("speedometer.png", "lib") ?>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="text-tertiary fw-800 heroHeading">Bad Credit? <span class="text-italic fw-700">No Problem!</span></div>
+                            <div class="text-white fw-800 fs-9 subText">
                                 No matter your personal circumstance, credit history, or financial needs; have confidence in allowing our team of loan experts and technology, to get you approved!
                             </div>
                         </div>
-                        <div class="col-3">
-                            <a href="#form" class="btn d-block btn-primary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
+                        <div class="col-md-3 pt-5 pt-md-0">
+                            <a href="#form" class="btn d-block btn-tertiary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
                         </div>
-                        <div class="col-auto position-relative">
-                            <?= renderImg("speedometer.png", "lib", "") ?>
+                        <div class="col-auto d-none d-md-block">
+                            <?= renderImg("speedometer.png", "lib") ?>
                         </div>
                     </div>
                 </div>

@@ -436,25 +436,59 @@ section.about {
                 border-radius: 27px;
                 padding: 45px 77px 30px;
 
+                @include media-breakpoint-down(sm) {
+                    padding: 74px 31px 51px;
+                    margin: 0 4px;
+                }
+
                 &.slider-1 {
                     background: $quartinary;
 
                     .percentage-img {
-                        position: absolute;
-                        top: -10.5rem;
-                        width: 100%;
+                        @include media-breakpoint-up(md) {
+                            position: absolute;
+                            top: -10.5rem;
+                            width: 100%;
+                        }
+                    }
+                    
+                    .hero-percentage {
+                        font-size: 6rem;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        .heroHeading {
+                            font-size: 2rem !important;
+                            line-height: 1;
+                            font-weight: 900;
+                            padding: 48px 0 8px;
+                        }
+
                     }
                 }
 
                 &.slider-2 {
                     background: $primary-dark;
+
+                    @include media-breakpoint-down(sm) {
+                        .heroHeading {
+                            font-size: 2.5rem !important;
+                            line-height: 1;
+                            font-weight: 900;
+                            padding: 48px 0 8px;
+                        }
+
+                        .subText {
+                            font-size: 1rem !important;
+                        }
+                    }
                 }
             }
         }
     }
 
     .cta-2 {
-        padding: 70px 0;
+        padding: 64px 0;
 
         @include media-breakpoint-up(md) {
             padding: 151px 0;
@@ -627,7 +661,7 @@ footer {
     background: $primary;
     color: $white;
     padding: 41px 0;
-    
+
     @include media-breakpoint-up(md) {
         background: imgUrl('footer-top.png') right 146px $primary;
         padding: 113px 0 66px;
