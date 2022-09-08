@@ -24,6 +24,13 @@ $(() => {
         autoplaySpeed: 0,
         responsive: [
             {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "20px"
+                }
+            },
+            {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 3,
@@ -44,6 +51,13 @@ $(() => {
         speed: 2000,
         autoplaySpeed: 0,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "20px"
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
@@ -66,6 +80,13 @@ $(() => {
         speed: 2500,
         autoplaySpeed: 0,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "20px"
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
@@ -112,7 +133,7 @@ $(() => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        autoplay: true,
+        // autoplay: true,
     });
 
     $(".accordion-head").on('click', function () {
@@ -148,6 +169,13 @@ $(() => {
                 }
             },
             {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: "120px",
+                }
+            },
+            {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
@@ -171,6 +199,13 @@ $(() => {
                 breakpoint: 1560,
                 settings: {
                     slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: "120px",
                 }
             },
             {
