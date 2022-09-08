@@ -1,4 +1,4 @@
-<footer>
+<footer id="contact-us">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-11 col-xl-12 col-xxl-11">
@@ -27,6 +27,7 @@
 							</div>
 						</div>
 					</div>
+					<div id="form"></div>
 					<div class="col-12 pt-4 d-md-none">
 						<a href="javascript:void(0)" id="quick-link-btn" class="btn text-white text-uppercase py-0 fw-700 text-center d-block">
 							Quick Links <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,11 +35,11 @@
 							</svg>
 						</a>
 						<ul class="quick-links" id="quick-links-sm">
-							<li><a href="" class="text-white fs-12">Types of Loans</a></li>
-							<li><a href="" class="text-white fs-12">About Us</a></li>
+							<li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
+							<li><a href="#about-us" class="text-white fs-12">About Us</a></li>
 							<li><a href="" class="text-white fs-12">Lenders</a></li>
-							<li><a href="" class="text-white fs-12">Apply Now</a></li>
-							<li><a href="" class="text-white fs-12">Contact Us</a></li>
+							<li><a href="#form" class="text-white fs-12">Apply Now</a></li>
+							<li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
 						</ul>
 						<hr>
 						<a href="javascript:void(0)" id="map-display-btn-sm" class="btn text-white text-uppercase py-0 fw-700 text-center d-block">
@@ -67,11 +68,11 @@
 							<div class="col-md-6 col-lg-5 col-xl-3 d-none d-md-block">
 								<div class="text-uppercase fw-700">Quick Links</div>
 								<ul class="quick-links">
-									<li><a href="" class="text-white fs-12">Types of Loans</a></li>
-									<li><a href="" class="text-white fs-12">About Us</a></li>
+									<li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
+									<li><a href="#about-us" class="text-white fs-12">About Us</a></li>
 									<li><a href="" class="text-white fs-12">Lenders</a></li>
-									<li><a href="" class="text-white fs-12">Apply Now</a></li>
-									<li><a href="" class="text-white fs-12">Contact Us</a></li>
+									<li><a href="#form" class="text-white fs-12">Apply Now</a></li>
+									<li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
 								</ul>
 								<div class="row align-items-center gx-3 pt-4">
 									<div class="col-auto fs-12 fw-700 pe-4">Follow us</div>
@@ -87,7 +88,7 @@
 								<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
 								<div class="text-light">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 							</div>
-							<div class="col-lg-8 col-xl-4 col-xxl-auto pt-md-6">
+							<div class="col-lg-8 col-xl-4 col-xxl-auto pt-md-6 pt-xl-0">
 								<div class="license"><span class="fw-700">ABN</span> 55 618 511 158</div>
 								<div class="license pt-2 pt-md-3"><span class="fw-700">Australian Credit License</span> 517685</div>
 								<div class="row justify-content-between align-items-center py-4">

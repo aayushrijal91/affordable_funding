@@ -25,26 +25,26 @@ include __DIR__ . '/header.php';
                             </a>
                         </div>
                         <div class="col-auto">
-                            <a href="tel:<?= $phone_number ?>" class="btn bordered border-primary rounded-pill text-primary-dark fw-800 py-2 py-md-3 px-md-5 text-uppercase fs-13">
+                            <a href="#form" class="btn bordered border-primary rounded-pill text-primary-dark fw-800 py-2 py-md-3 px-md-5 text-uppercase fs-13">
                                 Get A free quote online now
                             </a>
                         </div>
                     </div>
                     <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about-us">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">How it Works</a>
+                            <a class="nav-link" href="#how-it-works">How it Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Loans</a>
+                            <a class="nav-link" href="#loans">Loans</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reviews</a>
+                            <a class="nav-link" href="#reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
                         </li>
                     </ul>
                     <div class="row d-none d-xl-flex gx-2 gx-xxl-4">
@@ -54,7 +54,7 @@ include __DIR__ . '/header.php';
                             </a>
                         </div>
                         <div class="col-auto">
-                            <a href="tel:<?= $phone_number ?>" class="btn bordered border-primary rounded-pill text-primary-dark fw-800 py-3 px-xl-4 px-xxl-5 text-uppercase fs-11">
+                            <a href="#form" class="btn bordered border-primary rounded-pill text-primary-dark fw-800 py-3 px-xl-4 px-xxl-5 text-uppercase fs-11">
                                 Get A free quote online now
                             </a>
                         </div>
@@ -180,6 +180,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
+    <div id="lenders"></div>
     <div class="container lenders-header d-none d-xl-block">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-12 text-center">
@@ -361,7 +362,7 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
-<section class="introduction">
+<section class="introduction" id="about-us">
     <div class="container-fluid px-0">
         <div class="row gx-0">
             <div class="col-xl-6 col-xxl-7 bg-tertiary py-5 px-3 p-xl-0">
@@ -408,7 +409,7 @@ include __DIR__ . '/header.php';
                         <?= renderImg("notes.png", "icons") ?>
                         <div class="text-tertiary fs-5 line-height-1 fw-800 py-4">Deal Directly with<br class="d-md-none"> a broker</div>
                         <div class="font-ubuntu text-primary-dark fw-300 fs-11 pb-4">Apply Online or over the Phone in less than 5 minutes, and work our magic, and handle the rest!</div>
-                        <a href="#form" class="text-primary-dark fs-11 fw-900 call-btn">Call Now, Talk directly with your Broker</a>
+                        <a href="tel:<?= $phone_number ?>" class="text-primary-dark fs-11 fw-900 call-btn">Call Now, Talk directly with your Broker</a>
                     </div>
                 </div>
                 <div class="row g-0 bg-primary-dark align-items-center">
@@ -429,7 +430,7 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
-<section class="how-it-works">
+<section class="how-it-works" id="how-it-works">
     <div class="container">
         <div class="fs-1 fw-800 line-height-1 heroHeading">How it works</div>
         <div class="fs-7 fw-500 subHeading">We make things <span class="fw-700 text-italic">simple, seamless and FAST…</span></div>
@@ -562,7 +563,7 @@ include __DIR__ . '/header.php';
     </div>
 
     <!-- Loans type slider for larger screens -->
-    <div class="loans-slider-wrapper d-none d-md-block">
+    <div class="loans-slider-wrapper d-none d-md-block" id="loans">
         <div class="container">
             <ul class="loans-slider-nav">
                 <li class="active"><a href="javascript:void(0)" class="btn fs-12 fw-700 text-primary-dark loan-slider-btn" slideTarget="0">Car Loans</a></li>
@@ -1144,7 +1145,7 @@ include __DIR__ . '/header.php';
         </div>
     </div>
 
-    <div class="testimonials">
+    <div class="testimonials" id="reviews">
         <?php
         $testimonial_1 = [
             [

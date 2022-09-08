@@ -1,6 +1,6 @@
 AOS.init({ duration: 700 });
 
-document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
+document.querySelectorAll('a[href="#form"], a[href="#how-it-works"], a[href="#about-us"], a[href="#loans"], a[href="#lenders"], a[href="#reviews"], a[href="#form"], a[href="#contact-us"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
@@ -228,14 +228,14 @@ $(() => {
 
     AOS.refresh();
 
-    $("#quick-link-btn").on('click', function() {
+    $("#quick-link-btn").on('click', function () {
         $("#quick-links-sm").slideToggle();
     });
 
-    $("#map-display-btn-sm").on('click', function() {
+    $("#map-display-btn-sm").on('click', function () {
         $(".map-wrapper-sm").slideToggle();
     });
-    
+
 });
 
 
