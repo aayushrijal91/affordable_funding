@@ -8,7 +8,7 @@ include __DIR__ . '/header.php';
         <div class="container-fluid px-0 px-md-3">
             <nav class="navbar navbar-expand-xl navbar-light">
                 <div class="pb-4 pb-lg-0 px-3 px-md-0 navbar-logo">
-                    <a class="navbar-brand" href="./"><?= renderImg("logo.png", "logo", "d-none d-lg-block") ?><?= renderImg("logo-sm.png", "logo", "d-lg-none") ?></a>
+                    <a class="navbar-brand" href="./"><?= renderImg("logo.png", "logo", "d-none d-xl-block") ?><?= renderImg("logo-sm.png", "logo", "d-xl-none") ?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                         <svg width="37" height="31" viewBox="0 0 37 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="36.9417" height="3.875" rx="1.9375" fill="white" />
@@ -18,7 +18,7 @@ include __DIR__ . '/header.php';
                     </button>
                 </div>
                 <div class="collapse navbar-collapse bg-white" id="navbarScroll">
-                    <div class="row gx-2 justify-content-center d-lg-none">
+                    <div class="row gx-2 justify-content-center d-xl-none">
                         <div class="col">
                             <a href="tel:<?= $phone_number ?>" class="btn bordered border-primary btn-primary rounded-pill text-white fs-13 fw-700 py-2 py-md-3 d-block">
                                 <?= $phone_number ?>
@@ -47,7 +47,7 @@ include __DIR__ . '/header.php';
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
-                    <div class="row d-none d-lg-flex gx-2 gx-xxl-4">
+                    <div class="row d-none d-xl-flex gx-2 gx-xxl-4">
                         <div class="col-auto">
                             <a href="tel:<?= $phone_number ?>" class="btn bordered border-primary btn-primary rounded-pill text-white fs-11 fw-700 py-3 px-xl-4 px-xxl-5">
                                 <?= $phone_number ?>
@@ -70,7 +70,7 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-xxl-11">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-xl-7">
                         <div class="row gx-0">
                             <div class="col-11 col-xl-12 px-4 px-xxl-6">
                                 <h1 class="fs-1 fw-800 text-white line-height-1 banner-heading">Car Loans<br> from 3.99%*</h1>
@@ -123,7 +123,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
-    <div class="container d-none d-lg-block">
+    <div class="container d-none d-xl-block">
         <div class="row gx-md-4 gx-xxl-5 py-4">
             <div class="col-6 col-md-4 col-xl">
                 <div class="loan-type-card mt-4">
@@ -180,7 +180,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
-    <div class="container lenders-header d-none d-lg-block">
+    <div class="container lenders-header d-none d-xl-block">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="fs-2 fw-900 text-primary-dark">Access 40 + lenders</h2>
@@ -259,7 +259,7 @@ include __DIR__ . '/header.php';
 </section>
 
 <section class="lenders">
-    <div class="container d-lg-none">
+    <div class="container d-xl-none">
         <div class="row justify-content-center pb-4">
             <div class="col-12 text-center">
                 <h2 class="fs-2 fw-900 text-primary-dark heroHeading">Access 40 + lenders</h2>
@@ -341,7 +341,7 @@ include __DIR__ . '/header.php';
         </div>
     </div>
     <div class="container py-4 py-md-0">
-        <div class="row gx-md-5 align-items-center">
+        <div class="row gx-xl-5 align-items-center">
             <div class="col-7 col-lg-6">
                 <?= renderImg("we-work-for-you.png", "lib", "w-100") ?>
             </div>
@@ -364,7 +364,7 @@ include __DIR__ . '/header.php';
 <section class="introduction">
     <div class="container-fluid px-0">
         <div class="row gx-0">
-            <div class="col-lg-6 col-xxl-7 bg-tertiary py-5 px-3 p-lg-0">
+            <div class="col-xl-6 col-xxl-7 bg-tertiary py-5 px-3 p-xl-0">
                 <div class="row gx-0 justify-content-center h-100 align-items-center">
                     <div class="col-lg-10 col-xxl-7">
                         <h2 class="fs-2 fw-800 line-height-1 text-white"><span class="text-primary-dark">Fast, Simple, and Affordable</span> Funding, when you need it!</h2>
@@ -402,18 +402,18 @@ include __DIR__ . '/header.php';
                 </div>
             </div>
             <div class="col">
-                <div class="row g-0">
-                    <div class="col-md-6"><?= renderImg("intro-1.png", "lib") ?></div>
-                    <div class="col-md-6 p-5 p-md-4 p-xxl-5">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-6 col-lg-auto col-xl-6"><?= renderImg("intro-1.png", "lib") ?></div>
+                    <div class="col-md p-5 p-md-4 px-lg-5 p-xxl-5">
                         <?= renderImg("notes.png", "icons") ?>
                         <div class="text-tertiary fs-5 line-height-1 fw-800 py-4">Deal Directly with<br class="d-md-none"> a broker</div>
                         <div class="font-ubuntu text-primary-dark fw-300 fs-11 pb-4">Apply Online or over the Phone in less than 5 minutes, and work our magic, and handle the rest!</div>
                         <a href="#form" class="text-primary-dark fs-11 fw-900 call-btn">Call Now, Talk directly with your Broker</a>
                     </div>
                 </div>
-                <div class="row g-0">
+                <div class="row g-0 bg-primary-dark align-items-center">
                     <div class="d-md-none"><?= renderImg("intro-2.png", "lib") ?></div>
-                    <div class="col-md-6 bg-primary-dark p-5 p-md-4 p-xxl-5">
+                    <div class="col p-5 p-md-4 px-lg-5 p-xxl-5">
                         <svg width="61" height="57" viewBox="0 0 61 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M29.5362 0C38.2299 0 45.3632 7.1591 45.3632 16.1364L45.3632 32.2728V40.4546L37.3383 32.2728L15.827 32.2728C7.02182 32.1591 0 25 0 16.1364C0 7.1591 7.02182 0 15.827 0L29.5362 0Z" fill="#742CFF" />
                             <path d="M33.5489 20.4546C26.0812 20.4546 20.0625 26.591 20.0625 34.2046V47.9546L20.0625 55.0001L26.9729 47.9546H45.2519C52.7195 47.9546 58.7383 41.8182 58.7383 34.2046C58.7383 26.591 52.7195 20.4546 45.2519 20.4546H33.5489Z" fill="#EF7337" />
@@ -422,7 +422,7 @@ include __DIR__ . '/header.php';
                         <div class="font-ubuntu text-white fw-300 fs-11 pb-4">From finding you the perfect loan, to picking up the keys, and beyond… we’re with you every step of the way.</div>
                         <a href="#form" class="text-white fs-11 fw-800">Chat Now</a>
                     </div>
-                    <div class="col-6 d-none d-md-block"><?= renderImg("intro-2.png", "lib") ?></div>
+                    <div class="col-6 col-lg-auto col-xl-6 d-none d-md-block"><?= renderImg("intro-2.png", "lib") ?></div>
                 </div>
             </div>
         </div>
@@ -435,14 +435,14 @@ include __DIR__ . '/header.php';
         <div class="fs-7 fw-500 subHeading">We make things <span class="fw-700 text-italic">simple, seamless and FAST…</span></div>
     </div>
     <?= renderImg("how-it-works-mobile.png", "lib", "w-100 d-md-none pt-5") ?>
-    <?= renderImg("how-it-works.png", "lib", "w-100 d-none d-md-block") ?>
+    <?= renderImg("how-it-works.png", "lib", "w-100 d-none d-md-block pt-lg-5 pt-xl-0") ?>
 </section>
 
 <section class="about">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="d-lg-none"><?= renderImg("about.png", "lib", "w-100 pb-5") ?></div>
-            <div class="col-lg-5 col-xxl-4 px-4 px-md-3">
+            <div class="col-lg-6 col-xxl-4 px-4 px-md-3">
                 <h2 class="fs-2 text-primary fw-800 line-height-1 text-center text-lg-start">Access To All Car Finance Products</h2>
                 <div class="fs-11 text-primary-dark pt-3 pb-4 line-height-3">
                     Affordable Funding has access to all Car Finance Products, so no matter your situation, we will have a solution for you. Full range of insurance and warranty products easily incorporated into your loan to supplement your car purchase. We will be there for you throughout the entire duration of your loan, helping with pay-outs, trade-ins and any other queries you may have.
@@ -588,7 +588,7 @@ include __DIR__ . '/header.php';
                                     </svg>
                                 </div>
                             </div>
-                            <div class="col col-lg-auto"><?= renderImg("slider-car-loans.png", "lib", "slider-img") ?></div>
+                            <div class="col col-xl-auto"><?= renderImg("slider-car-loans.png", "lib", "slider-img") ?></div>
                         </div>
                     </div>
                     <div class="cards-wrapper">
@@ -600,10 +600,10 @@ include __DIR__ . '/header.php';
                                         <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
                                     </div>
                                     <div class="row gx-0">
-                                        <div class="col-9">
+                                        <div class="col-xl-9">
                                             <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Competitive interest rates as low as 3.99%</div>
                                         </div>
-                                        <div class="col-10">
+                                        <div class="col-xl-10">
                                             <div class="fs-11">
                                                 Flexible loan terms, tailored repayments, 40+ lenders
                                             </div>
@@ -618,10 +618,10 @@ include __DIR__ . '/header.php';
                                         <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
                                     </div>
                                     <div class="row gx-0">
-                                        <div class="col-9">
+                                        <div class="col-xl-9">
                                             <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Easy online application</div>
                                         </div>
-                                        <div class="col-10">
+                                        <div class="col-xl-10">
                                             <div class="fs-11">
                                                 quick turn-around time for an approval, you can be in your car within as little as 24 hours
                                             </div>
@@ -636,10 +636,10 @@ include __DIR__ . '/header.php';
                                         <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
                                     </div>
                                     <div class="row gx-0">
-                                        <div class="col-9">
+                                        <div class="col-xl-9">
                                             <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">No deposit required</div>
                                         </div>
-                                        <div class="col-10">
+                                        <div class="col-xl-10">
                                             <div class="fs-11">
                                                 no up-front costs at all and no hidden fees or charges for personal or car finance
                                             </div>
@@ -654,7 +654,7 @@ include __DIR__ . '/header.php';
                                         <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
                                     </div>
                                     <div class="row gx-0">
-                                        <div class="col-9">
+                                        <div class="col-xl-9">
                                             <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">New and Used Vehicles</div>
                                         </div>
                                         <div class="col-12">
@@ -675,7 +675,7 @@ include __DIR__ . '/header.php';
                                         <div class="col-12">
                                             <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Discounts for ABN Holders</div>
                                         </div>
-                                        <div class="col-10">
+                                        <div class="col-xl-10">
                                             <div class="fs-11">
                                                 Exclusive discounts available on Business & Commercial Loans
                                             </div>
@@ -705,7 +705,7 @@ include __DIR__ . '/header.php';
                                     </svg>
                                 </div>
                             </div>
-                            <div class="col col-lg-auto"><?= renderImg("slider-commercial-asset-finance.png", "lib", "slider-img") ?></div>
+                            <div class="col col-xl-auto"><?= renderImg("slider-commercial-asset-finance.png", "lib", "slider-img") ?></div>
                         </div>
                     </div>
                     <div class="cards-wrapper">
@@ -822,7 +822,7 @@ include __DIR__ . '/header.php';
                                     </svg>
                                 </div>
                             </div>
-                            <div class="col col-lg-auto"><?= renderImg("slider-personal-loans.png", "lib", "slider-img") ?></div>
+                            <div class="col col-xl-auto"><?= renderImg("slider-personal-loans.png", "lib", "slider-img") ?></div>
                         </div>
                     </div>
                     <div class="cards-wrapper">
@@ -1035,7 +1035,7 @@ include __DIR__ . '/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 pt-3 pt-lg-0">
+                        <div class="col-md-6 col-lg col-xl-3 pt-3 pt-lg-0">
                             <a href="#form" class="btn d-block btn-primary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
                         </div>
                         <div class="col-3 position-relative d-none d-lg-block">
@@ -1069,21 +1069,21 @@ include __DIR__ . '/header.php';
     <div class="cta-2">
         <div class="container">
             <div class="row justify-content-around gy-5 gy-md-0">
-                <div class="col-md-4 col-lg-3">
+                <div class="col-md-4 col-xl-3">
                     <div class="row align-items-center">
                         <div class="col-auto"><?= renderImg('cta-verified.png', "lib") ?></div>
                         <div class="col-12 col-md fs-5 fw-900 line-height-1 text-primary-dark py-4 py-md-0">Vehicle <br class="d-none d-md-block">Warranty</div>
                         <div class="col-12 text-primary-dark fs-10 fw-600 pt-md-3">Bundle & Save with our Premium Discounts on Warranties and Roadside </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
+                <div class="col-md-4 col-xl-3">
                     <div class="row align-items-center">
                         <div class="col-auto"><?= renderImg('cta-percentage.png', "lib") ?></div>
                         <div class="col-12 col-md fs-5 fw-900 line-height-1 text-primary-dark py-4 py-md-0">Vehicle <br class="d-none d-md-block">Insurance</div>
                         <div class="col-12 text-primary-dark fs-10 fw-600 pt-md-3">Bundle & Save with our Premium Discounts on all Insurance Products</div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
+                <div class="col-md-4 col-xl-3">
                     <div class="row align-items-center">
                         <div class="col-auto"><?= renderImg('cta-certified.png', "lib") ?></div>
                         <div class="col-12 col-md fs-5 fw-900 line-height-1 text-primary-dark py-4 py-md-0">Vehicle <br class="d-none d-md-block">Search</div>
@@ -1098,7 +1098,7 @@ include __DIR__ . '/header.php';
         <?= renderImg("faq-img.png", "lib", "faq-img") ?>
         <div class="container">
             <div class="row justify-content-end">
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <div class="accordion-container">
                         <div class="accordion-card">
                             <div class="accordion-head active">

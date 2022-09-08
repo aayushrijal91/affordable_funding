@@ -24,7 +24,7 @@ $(() => {
         autoplaySpeed: 0,
         responsive: [
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 3,
                     centerPadding: "20px"
@@ -52,7 +52,7 @@ $(() => {
         autoplaySpeed: 0,
         responsive: [
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 3,
                     centerPadding: "20px"
@@ -81,7 +81,7 @@ $(() => {
         autoplaySpeed: 0,
         responsive: [
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 3,
                     centerPadding: "20px"
@@ -169,7 +169,7 @@ $(() => {
                 }
             },
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 1,
                     centerPadding: "120px",
@@ -202,7 +202,7 @@ $(() => {
                 }
             },
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 1,
                     centerPadding: "120px",

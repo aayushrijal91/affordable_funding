@@ -6,11 +6,11 @@ header {
     background-color: $white;
 
     .navbar-logo {
-        @include media-breakpoint-between(lg, xxl) {
+        @include media-breakpoint-between(xl, xxl) {
             width: 332px;
         }
 
-        @include media-breakpoint-down(lg) {
+        @include media-breakpoint-down(xl) {
             display: flex;
             justify-content: space-between;
             width: 100%;
@@ -34,6 +34,10 @@ header {
     }
 
     .navbar-collapse {
+        @include media-breakpoint-down(xl) {
+            padding: 48px 80px;
+        }
+
         @include media-breakpoint-down(lg) {
             padding: 20px;
         }
@@ -47,13 +51,13 @@ header {
                     padding-right: 24px;
                     color: $primary-dark;
 
-                    @include media-breakpoint-down(lg) {
+                    @include media-breakpoint-down(xl) {
                         text-align: center;
                         padding: 16px;
                     }
                 }
 
-                @include media-breakpoint-down(lg) {
+                @include media-breakpoint-down(xl) {
                     border-bottom: 1px solid $primary;
 
                     &:last-child {
@@ -73,7 +77,7 @@ section.banner {
     padding: 78px 0 21px;
     background: linear-gradient($primary-dark, $primary-light);
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         background: linear-gradient($primary-dark, $primary-light, $white);
         padding: 120px 0 34px;
     }
@@ -184,7 +188,7 @@ section.loan-types-mobile {
     background: $light;
     padding: 47px 0 73px;
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         display: none;
     }
 
@@ -211,13 +215,17 @@ section.loan-types-mobile {
         @include media-breakpoint-up(md) {
             filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
         }
+
+        @include media-breakpoint-up(lg) {
+            height: 500px;
+        }
     }
 }
 
 section.lenders {
     padding-bottom: 165px;
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xl) {
         padding: 80px 0 0;
     }
 
@@ -263,6 +271,10 @@ section.cta {
     padding: 90px 0 43px;
 
     @include media-breakpoint-up(lg) {
+        padding: 140px 0;
+    }
+
+    @include media-breakpoint-up(xl) {
         padding: 140px 0 262px;
     }
 
@@ -302,7 +314,7 @@ section.how-it-works {
         padding: 80px 0 64px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         padding: 198px 0 51px;
     }
 
@@ -325,7 +337,7 @@ section.about {
         padding-top: 80px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         padding-top: 231px;
     }
 
@@ -467,7 +479,7 @@ section.about {
                     .slider-img {
                         margin: 48px 0;
 
-                        @include media-breakpoint-up(lg) {
+                        @include media-breakpoint-up(xl) {
                             margin-top: -46px;
                         }
                     }
@@ -490,7 +502,7 @@ section.about {
                     .slider-text {
                         padding: 48px 0 48px 24px;
 
-                        @include media-breakpoint-up(lg) {
+                        @include media-breakpoint-up(xl) {
                             padding: 66px 0 0 68px;
                         }
                     }
@@ -576,9 +588,13 @@ section.about {
                 border-radius: 27px;
                 padding: 45px 77px 30px;
 
+                @include media-breakpoint-down(xl) {
+                    padding: 48px 31px;
+                    margin: 0 4px;
+                }
+
                 @include media-breakpoint-down(lg) {
                     padding: 74px 31px 51px;
-                    margin: 0 4px;
                 }
 
                 @include media-breakpoint-down(sm) {
@@ -590,7 +606,7 @@ section.about {
                     background: $quartinary;
 
                     .percentage-img {
-                        @include media-breakpoint-up(lg) {
+                        @include media-breakpoint-up(xl) {
                             position: absolute;
                             top: -10.5rem;
                             width: 100%;
@@ -618,8 +634,11 @@ section.about {
                     .heroHeading {
                         font-size: 2.5rem;
 
-                        @include media-breakpoint-down(sm) {
+                        @include media-breakpoint-down(xl) {
                             line-height: 1;
+                        }
+
+                        @include media-breakpoint-down(sm) {
                             font-weight: 900;
                             padding: 48px 0 8px;
                         }
@@ -639,6 +658,10 @@ section.about {
         padding: 64px 0;
 
         @include media-breakpoint-up(lg) {
+            padding: 80px 0;
+        }
+
+        @include media-breakpoint-up(xl) {
             padding: 151px 0;
         }
     }
@@ -656,7 +679,7 @@ section.about {
         }
 
         .faq-img {
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(xl) {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -819,7 +842,7 @@ footer {
         padding: 80px 0 41px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         padding: 113px 0 66px;
     }
 
@@ -857,10 +880,12 @@ footer {
 
     .google-map {
         border-radius: 31px;
-        height: 201px;
+        height: 301px;
+        width: 100%;
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             width: 70%;
+        height: 201px;
         }
     }
 
