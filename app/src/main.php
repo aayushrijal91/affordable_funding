@@ -1022,6 +1022,17 @@ include __DIR__ . '/header.php';
         </div>
     </div>
     <div class="rates-slider-wrapper">
+        <div class="rates-arrow" id="rates-arrow-next">
+            <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5147 1.39344L30.0607 10.9394C30.6464 11.5252 30.6464 12.4749 30.0607 13.0607L20.5147 22.6066C19.9289 23.1924 18.9792 23.1924 18.3934 22.6066C17.8076 22.0209 17.8076 21.0711 18.3934 20.4853L25.3787 13.5L-1.0968e-06 13.5L-8.34533e-07 10.5L25.3787 10.5L18.3934 3.51476C17.8076 2.92898 17.8076 1.97923 18.3934 1.39344C18.9792 0.807657 19.9289 0.807657 20.5147 1.39344Z" fill="#742CFF" />
+            </svg>
+        </div>
+        <div class="rates-arrow" id="rates-arrow-prev">
+            <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4853 1.39344L0.939341 10.9394C0.353555 11.5252 0.353555 12.4749 0.939342 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0209 13.1924 21.0711 12.6066 20.4853L5.62132 13.5L31 13.5L31 10.5L5.62132 10.5L12.6066 3.51476C13.1924 2.92898 13.1924 1.97923 12.6066 1.39344C12.0208 0.807657 11.0711 0.807657 10.4853 1.39344Z" fill="#742CFF" />
+            </svg>
+        </div>
+
         <div class="container">
             <div class="rates-slider">
                 <div class="rates-slider-content slider-1">

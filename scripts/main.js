@@ -135,13 +135,32 @@ $(() => {
 
     AOS.refresh();
 
-    $('.rates-slider').slick({
+    let ratesSlider = $('.rates-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        // autoplay: true,
     });
 
+    $("#rates-arrow-next").on('click', function () {
+        ratesSlider.slick('slickGoTo', 1);
+    });
+
+    $("#rates-arrow-prev").on('click', function () {
+        ratesSlider.slick('slickGoTo', 2);
+    });
+
+    $("#rates-arrow-prev").css('display', 'none');
+
+    $('.rates-arrow').on('click', function () {
+        if ($('.rates-slider-content.slider-1').hasClass('slick-active')) {
+            $("#rates-arrow-prev").css('display', 'none');
+            $("#rates-arrow-next").css('display', 'block');
+        }
+        else if ($('.rates-slider-content.slider-2').hasClass('slick-active')) {
+            $("#rates-arrow-next").css('display', 'none');
+            $("#rates-arrow-prev").css('display', 'block');
+        }
+    });
     AOS.refresh();
 
     $(".accordion-head").on('click', function () {

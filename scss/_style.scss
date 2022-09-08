@@ -582,6 +582,33 @@ section.about {
 
     .rates-slider-wrapper {
         padding: 15px 0;
+        position: relative;
+
+        .rates-arrow {
+            position: absolute;
+            cursor: pointer;
+            top: 12rem;
+
+            &#rates-arrow-prev {
+                left: 3rem;
+
+                @include media-breakpoint-down(xxl) {
+                    left: 1rem;
+                }
+            }
+
+            &#rates-arrow-next {
+                right: 3rem;
+
+                @include media-breakpoint-down(xxl) {
+                    right: 1rem;
+                }
+            }
+
+            @include media-breakpoint-down(xl) {
+                display: none;
+            }
+        }
 
         .rates-slider {
             .rates-slider-content {
