@@ -81,7 +81,7 @@ $(() => {
         arrows: false,
     });
 
-    $('.sm-nav-btn').on('click', function() {
+    $('.sm-nav-btn').on('click', function () {
         loanSliderSm.slick('slickGoTo', $(this).attr('slideTarget'));
     });
 
@@ -140,14 +140,22 @@ $(() => {
         autoplay: true,
         speed: 1500,
         centerPadding: "120px",
-        responsive: [{
-            breakpoint: 540,
-            settings: {
-                slidesToShow: 1,
-                centerPadding: 0,
-                centerMode: false,
+        responsive: [
+            {
+                breakpoint: 1560,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: 0,
+                    centerMode: false,
+                }
             }
-        }]
+        ]
     });
 
     $('.testimonial-slider-2').slick({
@@ -158,14 +166,22 @@ $(() => {
         speed: 2500,
         autoplay: true,
         centerPadding: "160px",
-        responsive: [{
-            breakpoint: 540,
-            settings: {
-                slidesToShow: 1,
-                centerPadding: 0,
-                centerMode: false,
+        responsive: [
+            {
+                breakpoint: 1560,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: 0,
+                    centerMode: false,
+                }
             }
-        }]
+        ]
     });
 });
 

@@ -1,7 +1,7 @@
 <footer>
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-11">
+			<div class="col-xxl-11">
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="row">
