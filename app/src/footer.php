@@ -53,7 +53,8 @@
 							<div class="text-light">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 
 							<form action="./src/form" method="post" class="newsletter-form mt-4">
-								<input type="email" class="form-control" placeholder="Email address" required>
+								<input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse">
+								<input type="email" class="form-control" name="email" placeholder="Email address" required>
 								<button type="submit" class="btn">
 									<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
@@ -107,7 +108,8 @@
 								<div class="d-none d-md-block pt-md-4 pt-lg-0">
 									<div class="newsletter-header fs-4">Sign up to our newsletter</div>
 									<form action="./src/form" method="post" class="newsletter-form">
-										<input type="email" class="form-control" placeholder="Email address" required>
+										<input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
+										<input type="email" class="form-control" name="email" placeholder="Email address" required>
 										<button type="submit" class="btn">
 											<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
