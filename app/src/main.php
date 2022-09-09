@@ -72,9 +72,9 @@ include __DIR__ . '/header.php';
                 <div class="row">
                     <div class="col-xl-7" data-aos="fade-right">
                         <div class="row gx-0">
-                            <div class="col-11 col-xl-12 px-4 px-xxl-6">
+                            <div class="col-11 col-lg-9 col-xl-12 px-4 px-xxl-6">
                                 <h1 class="fs-1 fw-800 text-white line-height-1 banner-heading">Car Loans<br> from 3.99%*</h1>
-                                <div class="fs-7 text-white fw-400 banner-subheading">Save $$$ in repayments with Affordable Funding. Compare & choose<br class="d-none d-lg-block"> the right loan with our flexible finance options</div>
+                                <div class="fs-7 text-white fw-400 banner-subheading">Save $$$ in repayments with Affordable Funding. Compare & choose<br class="d-none d-xl-block"> the right loan with our flexible finance options</div>
                                 <div class="d-md-none pt-5">
                                     <a href="#form" class="btn btn-primary rounded-pill fs-11 py-2 px-5">Apply Now</a>
                                 </div>

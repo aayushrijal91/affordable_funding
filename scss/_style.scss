@@ -78,9 +78,15 @@ section.banner {
     padding: 78px 0 21px;
     background: linear-gradient($primary-dark, $primary-light);
 
+    @include media-breakpoint-up(lg) {
+        background: imgUrl('banner-gif.gif') 112% top, linear-gradient($primary-dark, $primary-light);
+        background-size: 52% !important;
+    }
+
     @include media-breakpoint-up(xl) {
-        background: linear-gradient($primary-dark, $primary-light, $white);
+        background: imgUrl('banner-gif.gif') 112% top, linear-gradient($primary-dark, $primary-light, $white);
         padding: 120px 0 34px;
+        background-size: 52% !important;
     }
 
     @include media-breakpoint-down(sm) {
