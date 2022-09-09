@@ -595,8 +595,8 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="cards-wrapper">
-                        <div class="row gx-3">
-                            <div class="col">
+                        <div class="row gx-3 h-100">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -614,7 +614,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -632,7 +632,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -650,7 +650,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -668,7 +668,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -712,8 +712,8 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="cards-wrapper">
-                        <div class="row gx-3">
-                            <div class="col">
+                        <div class="row gx-3 h-100">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -731,7 +731,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -749,7 +749,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -767,7 +767,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -775,17 +775,17 @@ include __DIR__ . '/header.php';
                                     </div>
                                     <div class="row gx-0">
                                         <div class="col-9">
-                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">New and Used Vehicles</div>
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Exclusive Access</div>
                                         </div>
                                         <div class="col-12">
                                             <div class="fs-11">
-                                                Exclusive access to the cheapest cars on the market. Don’t just fund your car with Affordable Funding, allow us to locate the right car for you too!
+                                                We are the most competitive in the industry for commercial interest rates and have access to a multitude of commercial products including; New and Used Vehicles, Machinery and commercial equipment
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -829,8 +829,8 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="cards-wrapper">
-                        <div class="row gx-3">
-                            <div class="col">
+                        <div class="row gx-3 h-100">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -848,7 +848,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -866,7 +866,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -884,7 +884,7 @@ include __DIR__ . '/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -892,17 +892,17 @@ include __DIR__ . '/header.php';
                                     </div>
                                     <div class="row gx-0">
                                         <div class="col-9">
-                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">New and Used Vehicles</div>
+                                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Exclusive Access</div>
                                         </div>
                                         <div class="col-12">
                                             <div class="fs-11">
-                                                Exclusive access to the cheapest cars on the market. Don’t just fund your car with Affordable Funding, allow us to locate the right car for you too!
+                                                With the most competitive interest rate and cheapest cars on the market. Dont just fund your car with Affordable Funding, allow us to locate the right car for you too!
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col h-inherit">
                                 <div class="slider-card">
                                     <div class="row justify-content-between g-0">
                                         <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
@@ -978,6 +978,42 @@ include __DIR__ . '/header.php';
                         <div class="col-10">
                             <div class="fs-11">
                                 no up-front costs at all and no hidden fees or charges for personal or car finance
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="slider-card" data-aos="fade-up">
+                    <div class="row justify-content-between g-0">
+                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                    </div>
+                    <div class="row gx-0">
+                        <div class="col-9">
+                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Exclusive Access</div>
+                        </div>
+                        <div class="col-10">
+                            <div class="fs-11">
+                                We are the most competitive in the industry for commercial interest rates and have access to a multitude of commercial products including; New and Used Vehicles, Machinery and commercial equipment
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="slider-card" data-aos="fade-up">
+                    <div class="row justify-content-between g-0">
+                        <div class="col-auto"><?= renderImg("sm-vertical-logo.png", "icons") ?></div>
+                        <div class="col-auto"><?= renderImg("burger-dots.png", "icons") ?></div>
+                    </div>
+                    <div class="row gx-0">
+                        <div class="col-9">
+                            <div class="font-ubuntu fs-8 py-3 fw-900 line-height-1">Exclusive Access</div>
+                        </div>
+                        <div class="col-10">
+                            <div class="fs-11">
+                                With the most competitive interest rate and cheapest cars on the market. Dont just fund your car with Affordable Funding, allow us to locate the right car for you too!
                             </div>
                         </div>
                     </div>
