@@ -139,6 +139,7 @@ $(() => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        draggable: false
     });
 
     $("#rates-arrow-next").on('click', function () {
@@ -152,13 +153,13 @@ $(() => {
     $("#rates-arrow-prev").css('display', 'none');
 
     $('.rates-arrow').on('click', function () {
-        if ($('.rates-slider-content.slider-1').hasClass('slick-active')) {
-            $("#rates-arrow-prev").css('display', 'none');
-            $("#rates-arrow-next").css('display', 'block');
-        }
-        else if ($('.rates-slider-content.slider-2').hasClass('slick-active')) {
+        if ($('.rates-slider-content.slider-1').hasClass('slick-current')) {
             $("#rates-arrow-next").css('display', 'none');
             $("#rates-arrow-prev").css('display', 'block');
+        }
+        else if ($('.rates-slider-content.slider-2').hasClass('slick-current')) {
+            $("#rates-arrow-prev").css('display', 'none');
+            $("#rates-arrow-next").css('display', 'block');
         }
     });
     AOS.refresh();
@@ -185,7 +186,7 @@ $(() => {
         slidesToScroll: 1,
         centerMode: true,
         arrows: false,
-        // autoplay: true,
+        autoplay: true,
         speed: 1500,
         centerPadding: "120px",
         responsive: [

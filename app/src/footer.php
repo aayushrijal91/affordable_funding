@@ -5,15 +5,15 @@
 				<div class="row">
 					<div class="col-xl-8" data-aos="fade-right">
 						<div class="row">
-							<div class="col-12 fs-2 fw-700 line-height-3 heroHeading">Fast, Simple, and Affordable Funding, when you need it!</div>
-							<div class="col-xl-8 line-height-2 fs-8 subHeading">Apply Online or over the Phone in less than 5 minutes, and work our magic, and handle the rest!</div>
+							<div class="col-12 fs-2 fw-700 line-height-3 heroHeading">Fast, Simple, Affordable Funding!</div>
+							<div class="col-xl-8 line-height-2 fs-8 subHeading">Apply Now or Call <a href="tel:<?= $phone_number ?>" class="btn p-0 fs-8 text-white"><?= $phone_number ?></a> to speak with a Finance Broker</div>
 							<div class="col-lg-9 py-3">
 								<div class="d-md-none footer-contact-button">
 									<div class="pb-1">
 										<a href="#form" class="btn btn-secondary-dark text-white fw-700 rounded-pill line-height-1 py-2">Get a FREE Quote within minutes</a>
 									</div>
 									<div class="pt-1">
-										<a href="#form" class="btn btn-white text-primary-dark fw-700 rounded-pill line-height-1 py-2">Apply Now</a>
+										<a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn btn-white text-primary-dark fw-700 rounded-pill line-height-1 py-2">Apply Now</a>
 									</div>
 								</div>
 								<div class="row g-0 bg-white rounded-pill footer-contact-button d-none d-md-flex">
@@ -21,7 +21,7 @@
 										<a href="#form" class="btn btn-secondary-dark text-white fs-9 fw-700 rounded-pill line-height-1 py-3 px-6">Get a FREE Quote within minutes</a>
 									</div>
 									<div class="col-auto">
-										<a href="#form" class="btn text-primary-dark fs-9 fw-800 line-height-1 py-3 px-5">Apply Now</a>
+										<a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn text-primary-dark fs-9 fw-800 line-height-1 py-3 px-5">Apply Now</a>
 									</div>
 								</div>
 							</div>
@@ -37,8 +37,8 @@
 						<ul class="quick-links" id="quick-links-sm">
 							<li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
 							<li><a href="#about-us" class="text-white fs-12">About Us</a></li>
-							<li><a href="" class="text-white fs-12">Lenders</a></li>
-							<li><a href="#form" class="text-white fs-12">Apply Now</a></li>
+							<li><a href="#" class="text-white fs-12">Lenders</a></li>
+							<li><a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white fs-12">Apply Now</a></li>
 							<li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
 						</ul>
 						<hr>
@@ -54,12 +54,37 @@
 
 							<form action="./src/form" method="post" class="newsletter-form mt-4">
 								<input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse">
-								<input type="email" class="form-control" name="email" placeholder="Email address" required>
-								<button type="submit" class="btn">
-									<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
-									</svg>
-								</button>
+								<div class="row g-2 align-items-center">
+									<div class="col-md-6">
+										<input type="text" class="form-control" name="name" placeholder="Full Name" required>
+									</div>
+									<div class="col-md-6">
+										<input type="tel" class="form-control" name="phone" placeholder="Phone Number " required>
+									</div>
+									<div class="col-md-6">
+										<input type="email" class="form-control" name="email" placeholder="Email address" required>
+									</div>
+									<div class="col-md-6">
+										<select name="enquiryType" class="form-control" required>
+											<option disabled selected>Enquiry Type</option>
+											<option>New Loan Application</option>
+											<option>Loan &amp; Finance Enquiry</option>
+											<option>Partnership Enquiry</option>
+											<option>Broker &amp; Employment Enquiry</option>
+											<option>General Enquiry</option>
+										</select>
+									</div>
+									<div class="col-md">
+										<input type="text" class="form-control" name="comment" placeholder="Message">
+									</div>
+									<div class="col-md-auto">
+										<button type="submit" class="btn">
+											<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
+											</svg>
+										</button>
+									</div>
+								</div>
 							</form>
 							<div class="fs-14 text-white pt-3 fw-300">*Subscribe to our newsletter to receive communications and early updates from Affordable Funding</div>
 						</div>
@@ -72,7 +97,7 @@
 									<li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
 									<li><a href="#about-us" class="text-white fs-12">About Us</a></li>
 									<li><a href="" class="text-white fs-12">Lenders</a></li>
-									<li><a href="#form" class="text-white fs-12">Apply Now</a></li>
+									<li><a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white fs-12">Apply Now</a></li>
 									<li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
 								</ul>
 								<div class="row align-items-center gx-3 pt-4">
@@ -89,7 +114,7 @@
 								<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
 								<div class="text-light fw-300">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 							</div>
-							<div class="col-lg-8 col-xl-4 col-xxl-auto pt-md-6 pt-xl-0">
+							<div class="col-lg-8 col-xl-4 col-xxl-4 pt-md-6 pt-xl-0">
 								<div class="license"><span class="fw-700">ABN</span> 55 618 511 158</div>
 								<div class="license pt-2 pt-md-3"><span class="fw-700">Australian Credit License</span> 517685</div>
 								<div class="row justify-content-between align-items-center py-4">
@@ -106,17 +131,41 @@
 									<div class="col-auto"><a href=""><?= renderImg("google-map.png", "icons", "social-icon") ?></a></div>
 								</div>
 								<div class="d-none d-md-block pt-md-4 pt-lg-0">
-									<div class="newsletter-header fs-4">Sign up to our newsletter</div>
+									<div class="newsletter-header fs-6">Enquire Now</div>
 									<form action="./src/form" method="post" class="newsletter-form">
 										<input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
-										<input type="email" class="form-control" name="email" placeholder="Email address" required>
-										<button type="submit" class="btn">
-											<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
-											</svg>
-										</button>
+										<div class="row g-2 align-items-center">
+											<div class="col-md-6">
+												<input type="text" class="form-control" name="name" placeholder="Full Name" required>
+											</div>
+											<div class="col-md-6">
+												<input type="tel" class="form-control" name="phone" placeholder="Phone Number " required>
+											</div>
+											<div class="col-md-6">
+												<input type="email" class="form-control" name="email" placeholder="Email address" required>
+											</div>
+											<div class="col-md-6">
+												<select name="enquiryType" class="form-control" required>
+													<option disabled selected>Enquiry Type</option>
+													<option>New Loan Application</option>
+													<option>Loan &amp; Finance Enquiry</option>
+													<option>Partnership Enquiry</option>
+													<option>Broker &amp; Employment Enquiry</option>
+													<option>General Enquiry</option>
+												</select>
+											</div>
+											<div class="col-md">
+												<input type="text" class="form-control" name="comment" placeholder="Message">
+											</div>
+											<div class="col-md-auto">
+												<button type="submit" class="btn">
+													<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.52827C8.12228 0.26792 8.54439 0.26792 8.80474 0.52827L11.8047 3.52827C12.0651 3.78862 12.0651 4.21073 11.8047 4.47108L8.80474 7.47108C8.54439 7.73143 8.12228 7.73143 7.86193 7.47108C7.60158 7.21073 7.60158 6.78862 7.86193 6.52827L9.72386 4.66634H0.666667C0.298477 4.66634 0 4.36786 0 3.99967C0 3.63148 0.298477 3.33301 0.666667 3.33301H9.72386L7.86193 1.47108C7.60158 1.21073 7.60158 0.788619 7.86193 0.52827Z" fill="white" />
+													</svg>
+												</button>
+											</div>
+										</div>
 									</form>
-									<div class="fs-14 text-white pt-3 fw-300">*Subscribe to our newsletter to receive communications and early updates from Affordable Funding</div>
 								</div>
 							</div>
 						</div>

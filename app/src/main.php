@@ -8,12 +8,12 @@ include __DIR__ . '/header.php';
         <div class="container-fluid px-0 px-md-3">
             <nav class="navbar navbar-expand-xl navbar-light">
                 <div class="pb-4 pb-lg-0 px-3 px-md-0 navbar-logo">
-                    <a class="navbar-brand" href="./"><?= renderImg("logo.png", "logo", "d-none d-xl-block") ?><?= renderImg("logo-sm.png", "logo", "d-xl-none") ?></a>
+                    <a class="navbar-brand" href="./"><?= renderImg("logo.png", "logo") ?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                        <svg width="37" height="31" viewBox="0 0 37 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="36.9417" height="3.875" rx="1.9375" fill="white" />
-                            <rect y="14.2083" width="36.9417" height="3.875" rx="1.9375" fill="white" />
-                            <rect y="27.125" width="36.9417" height="3.875" rx="1.9375" fill="white" />
+                        <svg width="37" height="31" viewBox="0 0 37 31" fill="#040987" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36.9417" height="3.875" rx="1.9375" fill="#040987" />
+                            <rect y="14.2083" width="36.9417" height="3.875" rx="1.9375" fill="#040987" />
+                            <rect y="27.125" width="36.9417" height="3.875" rx="1.9375" fill="#040987" />
                         </svg>
                     </button>
                 </div>
@@ -55,7 +55,7 @@ include __DIR__ . '/header.php';
                         </div>
                         <div class="col-auto">
                             <a href="#form" class="btn bordered border-primary rounded-pill text-primary-dark fw-800 py-3 px-xl-4 px-xxl-5 text-uppercase fs-11">
-                                Get A free quote online now
+                                Enquire Now
                             </a>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ include __DIR__ . '/header.php';
                                 <h1 class="fs-1 fw-800 text-white line-height-1 banner-heading">Car Loans<br> from 3.99%*</h1>
                                 <div class="fs-7 text-white fw-400 banner-subheading">Save $$$ in repayments with Affordable Funding. Compare & choose<br class="d-none d-xl-block"> the right loan with our flexible finance options</div>
                                 <div class="d-md-none pt-5">
-                                    <a href="#form" class="btn btn-primary rounded-pill fs-11 py-2 px-5">Apply Now</a>
+                                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn btn-primary rounded-pill fs-11 py-2 px-5">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -93,19 +93,20 @@ include __DIR__ . '/header.php';
                                     <div class="divider"></div>
                                 </div>
                                 <div class="col-auto">
-                                    <div class="fs-7 fw-300 subtext">Approvalls within</div>
+                                    <div class="fs-7 fw-300 subtext">Approvals within</div>
                                     <div class="fs-3 fw-700 line-height-1 herotext">60mins</div>
                                 </div>
                                 <div class="col col-md-5">
                                     <a href="tel: <?= $phone_number ?>" class="btn rounded-pill fs-7 d-md-none">
                                         <?= $phone_number ?>
                                     </a>
-                                    <a href="#form" class="btn rounded-pill fs-7 d-none d-md-flex">
+                                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn rounded-pill fs-7 d-none d-md-flex">
                                         Apply Now
                                     </a>
                                 </div>
                             </div>
                         </div>
+                        <div class="text-center text-white">Comparison Rate from 4.66%*</div>
                         <div class="py-4 py-md-5 px-xl-6">
                             <div class="row align-items-center">
                                 <div class="col-auto">
@@ -313,7 +314,7 @@ include __DIR__ . '/header.php';
                 <h3 class="fw-900 fs-3 text-primary-dark cta-heading">Protect Your Credit Score</h3>
                 <div class="fs-10 text-black fw-700 py-4">Protect your credit score by matching with the best<br class="d-none d-lg-block"> lender the first time</div>
                 <div class="d-flex">
-                    <a href="#form" class="text-primary fw-900 pe-2">Apply Now</a>
+                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-primary fw-900 pe-2">Apply Now</a>
                     <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="#742CFF" />
                     </svg>
@@ -351,8 +352,8 @@ include __DIR__ . '/header.php';
                 <h3 class="fw-900 fs-3 text-primary-dark cta-heading">We Work For YOU</h3>
                 <div class="fs-10 text-black fw-700 py-4">We work for you, not the banks! We guarantee to find you the perfect loan, with the lowest rates, tailored to you, no matter your financial circumstance</div>
                 <div class="d-flex">
-                    <a href="#form" class="text-primary fw-900 pe-2 d-md-none">Apply Now</a>
-                    <a href="#form" class="text-primary fw-900 pe-2 d-none d-md-block">Access Your Personal Rate & Choose Your Loan</a>
+                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-primary fw-900 pe-2 d-md-none">Apply Now</a>
+                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-primary fw-900 pe-2 d-none d-md-block">Access Your Personal Rate & Choose Your Loan</a>
                     <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="#742CFF" />
                     </svg>
@@ -384,7 +385,7 @@ include __DIR__ . '/header.php';
                                 <a href="#form" class="btn btn-secondary-dark text-white fs-11 fw-700 rounded-pill line-height-1 py-3 d-block">Get a FREE Quote within minutes</a>
                             </div>
                             <div class="pt-1">
-                                <a href="#form" class="btn text-primary-dark fs-11 fw-800 line-height-1 py-3 rounded-pill btn-white d-block">Apply Now</a>
+                                <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn text-primary-dark fs-11 fw-800 line-height-1 py-3 rounded-pill btn-white d-block">Apply Now</a>
                             </div>
                         </div>
                         <div class="row g-0 pt-4 d-none d-md-flex">
@@ -394,7 +395,7 @@ include __DIR__ . '/header.php';
                                         <a href="#form" class="btn btn-secondary-dark text-white fs-11 fw-700 rounded-pill line-height-1 py-4 px-6">Get a FREE Quote within minutes</a>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#form" class="btn text-primary-dark fs-11 fw-800 line-height-1 py-4 px-5">Apply Now</a>
+                                        <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn text-primary-dark fs-11 fw-800 line-height-1 py-4 px-5">Apply Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -446,11 +447,11 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-between align-items-center">
             <div class="d-lg-none" data-aos="fade-up"><?= renderImg("about.png", "lib", "w-100 pb-5") ?></div>
             <div class="col-lg-6 col-xxl-4 px-4 px-md-3" data-aos="fade-right">
-                <h2 class="fs-2 text-primary fw-800 line-height-1 text-center text-lg-start">Access To All Car Finance Products</h2>
+                <h2 class="fs-2 text-primary fw-800 line-height-1 text-center text-lg-start">Finance Products for Personal & ABN Holders</h2>
                 <div class="fs-11 text-primary-dark pt-3 pb-4 line-height-3">
-                    Affordable Funding has access to all Car Finance Products, so no matter your situation, we will have a solution for you. Full range of insurance and warranty products easily incorporated into your loan to supplement your car purchase. We will be there for you throughout the entire duration of your loan, helping with pay-outs, trade-ins and any other queries you may have.
+                    Affordable Funding has finance products for personal & ABN holders, so no matter your situation, we will have a solution for you. Full range of insurance and warranty products easily incorporated into your loan to supplement your car purchase. We will be there for you throughout the entire duration of your loan, helping with pay-outs, trade-ins and any other queries you may have.
                 </div>
-                <div class="text-center text-lg-start"><a href="#form" class="text-uppercase btn btn-primary rounded-pill text-white line-height-1 py-4 px-5 px-xl-7 fs-7 fw-700 d-block d-md-inline-block">Apply Now</a></div>
+                <div class="text-center text-lg-start"><a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-uppercase btn btn-primary rounded-pill text-white line-height-1 py-4 px-5 px-xl-7 fs-7 fw-700 d-block d-md-inline-block">Apply Now</a></div>
             </div>
             <div class="col-6 d-none d-lg-block" data-aos="fade-left"><?= renderImg("about.png", "lib", "w-100") ?></div>
         </div>
@@ -484,7 +485,7 @@ include __DIR__ . '/header.php';
                             <?= renderImg("slider-car-loans.png", "lib") ?>
                         </div>
                         <div class="d-flex pt-3">
-                            <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                            <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
                             <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
                             </svg>
@@ -518,7 +519,7 @@ include __DIR__ . '/header.php';
                             <?= renderImg("slider-commercial-asset-finance.png", "lib", "slider-img") ?>
                         </div>
                         <div class="d-flex pt-3">
-                            <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                            <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
                             <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
                             </svg>
@@ -551,7 +552,7 @@ include __DIR__ . '/header.php';
                             <?= renderImg("slider-personal-loans.png", "lib", "slider-img") ?>
                         </div>
                         <div class="d-flex pt-3">
-                            <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                            <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
                             <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
                             </svg>
@@ -585,7 +586,7 @@ include __DIR__ . '/header.php';
                                     Affordable Funding is a true market leader when it comes to Car Loans, guaranteeing to deliver the perfect loan to suit your car buying needs.
                                 </p>
                                 <div class="d-flex pt-3">
-                                    <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
                                     <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
                                     </svg>
@@ -702,7 +703,7 @@ include __DIR__ . '/header.php';
                                     Whether you’re an ABN Holder buying the new family car, a Sole Trader wanting to purchase a small truck, or a large company expanding its fleet of equipment and machinery; we’re with you every step of the way.
                                 </p>
                                 <div class="d-flex pt-3">
-                                    <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
                                     <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
                                     </svg>
@@ -819,7 +820,7 @@ include __DIR__ . '/header.php';
                                     Whether you need a personal loan for a Holiday, Wedding, Jewellery, Refinancing, or just in need of extra Cash, we’ll find you the right solutions and we’re with you every step of the way!
                                 </p>
                                 <div class="d-flex pt-3">
-                                    <a href="#form" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
+                                    <a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white text-uppercase fw-700 pe-2 fs-9">Apply Now</a>
                                     <svg width="33" height="14" viewBox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.5 13V13.5H19.7071L19.8536 13.3536L19.5 13ZM32.5 0L26.9232 1.49429L31.0057 5.57678L32.5 0ZM0 13.5H19.5V12.5H0V13.5ZM19.8536 13.3536L29.6716 3.53553L28.9645 2.82843L19.1464 12.6464L19.8536 13.3536Z" fill="white" />
                                     </svg>
@@ -1071,6 +1072,25 @@ include __DIR__ . '/header.php';
 
         <div class="container">
             <div class="rates-slider">
+                <div class="rates-slider-content slider-2">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-auto d-lg-none">
+                            <?= renderImg("speedometer.png", "lib") ?>
+                        </div>
+                        <div class="col-lg-5 py-md-5 py-lg-0">
+                            <div class="text-tertiary fw-800 heroHeading">Bad Credit? <span class="text-italic fw-700">No Problem!</span></div>
+                            <div class="text-white fw-800 fs-9 subText">
+                                No matter your personal circumstance, credit history, or financial needs; have confidence in allowing our team of loan experts and technology, to get you approved!
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 pt-5 pt-md-0">
+                            <a href="#form" class="btn d-block btn-tertiary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?= renderImg("speedometer.png", "lib") ?>
+                        </div>
+                    </div>
+                </div>
                 <div class="rates-slider-content slider-1">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-6 col-md-4 d-lg-none">
@@ -1090,25 +1110,6 @@ include __DIR__ . '/header.php';
                         </div>
                         <div class="col-3 position-relative d-none d-lg-block">
                             <?= renderImg("percentage.png", "lib", "percentage-img") ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="rates-slider-content slider-2">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-auto d-lg-none">
-                            <?= renderImg("speedometer.png", "lib") ?>
-                        </div>
-                        <div class="col-lg-5 py-md-5 py-lg-0">
-                            <div class="text-tertiary fw-800 heroHeading">Bad Credit? <span class="text-italic fw-700">No Problem!</span></div>
-                            <div class="text-white fw-800 fs-9 subText">
-                                No matter your personal circumstance, credit history, or financial needs; have confidence in allowing our team of loan experts and technology, to get you approved!
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 pt-5 pt-md-0">
-                            <a href="#form" class="btn d-block btn-tertiary text-white rounded-pill line-height-1 py-4 fs-7 fw-700">Get Started</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <?= renderImg("speedometer.png", "lib") ?>
                         </div>
                     </div>
                 </div>
@@ -1156,7 +1157,7 @@ include __DIR__ . '/header.php';
                                 <div class="plusminus">-</div>
                             </div>
                             <div class="accordion-body" style="display: block;">
-                                Affordable Funding has access to interest rates as low as 4.95% over a wide range of finance products across many banks and lenders. The rate will vary depending on each individual client’s profile, as well as the lender in which they are approved.
+                                Affordable Funding has access to interest rates as low as 3.99% over a wide range of finance products across many banks and lenders. The rate will vary depending on each individual client’s profile, as well as the lender in which they are approved.
                             </div>
                         </div>
                         <div class="accordion-card">
@@ -1179,11 +1180,12 @@ include __DIR__ . '/header.php';
                         </div>
                         <div class="accordion-card">
                             <div class="accordion-head">
-                                <div class="main-question">What extras can I add to my loan?</div>
+                                <div class="main-question">Why Choose Affordable Funding?</div>
                                 <div class="plusminus">+</div>
                             </div>
                             <div class="accordion-body">
-                                There are a variety of different products that can be added into your loan including, but not limited to, all insurance and warranty products, negative equity, registration costs, banking fees, and after-market upgrades. Feel free to let your Affordable Funding representative know and they will be sure to include it into the loan.
+                                <p>We’re Fast, Simple, and Affordable... We have the technology, the team, the experience, and the network to provide you with the best loan options on the market… and we guarantee it!</p>
+                                <div>Being solution focussed, your loan approval is our main goal, however your experience in applying for finance is our priority. When you choose Affordable Funding, you become part of the family, and we’re your Brokers for Life.</div>
                             </div>
                         </div>
                     </div>
@@ -1262,7 +1264,7 @@ include __DIR__ . '/header.php';
         <div class="container pb-4 pb-md-5">
             <div class="text-center pb-2 d-md-none"><?= renderImg("5stars.png", "lib", 'testimonial-star') ?></div>
             <div class="text-center text-primary-dark fs-5 fw-900 heroHeading">Over 10,000 Loans Approved</div>
-            <div class="text-center text-primary-dark fs-9 line-height-2 subHeading py-2 py-md-0">Read our Google Reviews from our many happy customers</div>
+            <div class="text-center text-primary-dark fs-9 line-height-2 subHeading py-2 py-md-0">Read our <a href="https://www.google.com/maps/place/AFFORDABLE+FUNDING+-+Car+Loans+Sydney/@-33.811217,150.9185534,15z/data=!4m2!3m1!1s0x0:0x32dabd908706399a?sa=X&ved=2ahUKEwj6wdXqsqT6AhW49zgGHa8zBT8Q_BJ6BAhSECE" class="text-primary-dark fs-9" target="_blank">Google Reviews</a> from our many happy customers</div>
             <div class="text-center py-3 d-none d-md-block"><?= renderImg("5stars.png", "lib", 'testimonial-star') ?></div>
         </div>
         <div class="testimonial-slider testimonial-slider-1">

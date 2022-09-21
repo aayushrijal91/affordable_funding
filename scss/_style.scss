@@ -18,11 +18,6 @@ header {
         }
     }
 
-    @include media-breakpoint-down(xl) {
-        background-color: $primary-dark;
-    }
-
-
     .navbar-toggler {
         border: 0;
         padding: 0;
@@ -89,11 +84,34 @@ section.banner {
         background-size: 52% !important;
     }
 
-    @include media-breakpoint-down(sm) {
-        .banner-heading {
-            font-size: 3rem !important;
+    .banner-heading {
+        animation: bounce 2s ease infinite;
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-20px);
+            }
+
+            60% {
+                transform: translateY(-15px);
+            }
         }
 
+        @include media-breakpoint-down(sm) {
+            font-size: 3rem !important;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
         .banner-subheading {
             font-size: 1rem !important;
         }
@@ -970,14 +988,13 @@ footer {
     }
 
     .newsletter-form {
-        display: flex;
-        background: rgba(255, 255, 255, 0.12);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        border-radius: 4px;
 
-        input {
-            border: 0;
-            background: none;
+        input,
+        select,
+        button {
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
             font-size: 0.75rem;
             color: $white;
             letter-spacing: 1px;
@@ -991,6 +1008,16 @@ footer {
                 box-shadow: none;
                 outline: none;
                 color: $white;
+            }
+        }
+
+        select {
+            color: rgba(255, 255, 255, 0.5);
+
+            option {
+                background: $primary;
+                border: 0;
+                line-height: 2;
             }
         }
     }
