@@ -438,7 +438,11 @@ include __DIR__ . '/header.php';
     </div>
     <div data-aos="fade-up">
         <?= renderImg("how-it-works-mobile.png", "lib", "w-100 d-md-none pt-5") ?>
-        <?= renderImg("how-it-works.png", "lib", "w-100 d-none d-md-block pt-lg-5 pt-xl-0") ?>
+        <div class="position-relative">
+            <?= renderImg("how-it-works.png", "lib", "w-100 d-none d-md-block pt-lg-5 pt-xl-0") ?>
+            <div class="apply-btn"><a href="#form" class="btn"></a></div>
+            <div class="call-btn"><a href="tel: <?= $phone_number ?>" class="btn"></a></div>
+        </div>
     </div>
 </section>
 

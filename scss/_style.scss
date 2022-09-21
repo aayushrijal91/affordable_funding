@@ -352,6 +352,38 @@ section.how-it-works {
             font-size: 1rem !important;
         }
     }
+
+    .apply-btn {
+        position: absolute;
+        bottom: 16%;
+        left: 14%;
+
+        
+        a {
+            width: 180px;
+            height: 50px;
+
+            @include media-breakpoint-down(xl) {
+                height: 40px;
+            }
+        }
+
+    }
+
+    .call-btn {
+        position: absolute;
+        bottom: 2%;
+        left: 14%;
+
+        a {
+            width: 180px;
+            height: 50px;
+            
+            @include media-breakpoint-down(xl) {
+                height: 40px;
+            }
+        }
+    }
 }
 
 section.about {
