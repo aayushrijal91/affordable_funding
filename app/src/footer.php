@@ -102,11 +102,11 @@
 								</ul>
 								<div class="row align-items-center gx-3 pt-4">
 									<div class="col-auto fs-12 fw-700 pe-4">Follow us</div>
-									<div class="col-auto"><a href="https://www.facebook.com/affordablefunding" target="_blank"><?= renderImg("facebook.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.instagram.com/affordablefunding/" target="_blank"><?= renderImg("instagram.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.linkedin.com/company/affordable-funding/" target="_blank"><?= renderImg("linkedin.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.google.com/maps/place/AFFORDABLE+FUNDING+-+Car+Loans+Sydney/@-33.811217,150.9185534,15z/data=!4m2!3m1!1s0x0:0x32dabd908706399a?sa=X&ved=2ahUKEwj6wdXqsqT6AhW49zgGHa8zBT8Q_BJ6BAhSECE" target="_blank"><?= renderImg("gmb.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.google.com/maps?ll=-33.821931,150.923757&z=12&t=m&hl=en&gl=AU&mapclient=embed&q=Pemulwuy+New+South+Wales+2145" target="_blank"><?= renderImg("google-map.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $facebook ?> target="_blank"><?= renderImg("facebook.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $instagram ?> target="_blank"><?= renderImg("instagram.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $linkedin ?> target="_blank"><?= renderImg("linkedin.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $gmb ?> target="_blank"><?= renderImg("gmb.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $google_map ?> target="_blank"><?= renderImg("google-map.png", "icons", "social-icon") ?></a></div>
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-7 col-xl-4 d-none d-md-block">
@@ -124,11 +124,11 @@
 								</div>
 								<div class="row align-items-center gx-3 pt-3 d-md-none">
 									<div class="col-auto fs-12 fw-700 pe-4">Follow us</div>
-									<div class="col-auto"><a href="https://www.facebook.com/affordablefunding" target="_blank"><?= renderImg("facebook.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.instagram.com/affordablefunding/" target="_blank"><?= renderImg("instagram.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.linkedin.com/company/affordable-funding/" target="_blank"><?= renderImg("linkedin.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.google.com/maps/place/AFFORDABLE+FUNDING+-+Car+Loans+Sydney/@-33.811217,150.9185534,15z/data=!4m2!3m1!1s0x0:0x32dabd908706399a?sa=X&ved=2ahUKEwj6wdXqsqT6AhW49zgGHa8zBT8Q_BJ6BAhSECE" target="_blank"><?= renderImg("gmb.png", "icons", "social-icon") ?></a></div>
-									<div class="col-auto"><a href="https://www.google.com/maps?ll=-33.821931,150.923757&z=12&t=m&hl=en&gl=AU&mapclient=embed&q=Pemulwuy+New+South+Wales+2145" target="_blank"><?= renderImg("google-map.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $facebook ?> target="_blank"><?= renderImg("facebook.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $instagram ?> target="_blank"><?= renderImg("instagram.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $linkedin ?> target="_blank"><?= renderImg("linkedin.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $gmb ?> target="_blank"><?= renderImg("gmb.png", "icons", "social-icon") ?></a></div>
+									<div class="col-auto"><a href=<?= $google_map ?> target="_blank"><?= renderImg("google-map.png", "icons", "social-icon") ?></a></div>
 								</div>
 								<div class="d-none d-md-block pt-md-4 pt-lg-0">
 									<div class="newsletter-header fs-6">Enquire Now</div>
