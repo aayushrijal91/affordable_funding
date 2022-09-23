@@ -211,9 +211,9 @@
 	</div>
 </a>
 <script type="text/javascript" src="./assets/js/app.js?v=0.3"></script>
-<!-- Start of aiims2758 Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ffc3109a-f802-43e4-b63d-2f3b5d6ffb89"> </script>
-<!-- End of aiims2758 Zendesk Widget script -->
+<!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=0677fbfb-f113-4c61-97e1-ae2a51bfee80"> </script>
+<!-- End of  Zendesk Widget script -->
 </body>
 
 </html>
