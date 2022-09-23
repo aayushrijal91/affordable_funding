@@ -1,0 +1,43 @@
+*   Trying 18.67.111.93:443...
+* Connected to affordablefunding.ambitioncloud.com.au (18.67.111.93) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=ambitioncloud.com.au
+*  start date: Sep  5 00:00:00 2022 GMT
+*  expire date: Oct  4 23:59:59 2023 GMT
+*  subjectAltName: host "affordablefunding.ambitioncloud.com.au" matched cert's "*.ambitioncloud.com.au"
+*  issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon
+*  SSL certificate verify ok.
+> POST /api/inbound HTTP/1.1
+Host: affordablefunding.ambitioncloud.com.au
+Accept: */*
+Accept-Encoding: deflate, gzip
+Content-Type: application/json
+x-tenant-key: b1f6b2a6cd3c00b1d52449a959839e33130959fec20d357a922309b48a3c68d9e19004106b1a081a37555e8b43ad7fc3d4f4
+Content-Length: 235
+
+* upload completely sent off: 235 out of 235 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Date: Wed, 21 Sep 2022 02:38:50 GMT
+< Server: nginx/1.18.0 (Ubuntu)
+< Cache-Control: no-cache, private
+< X-RateLimit-Limit: 800
+< X-RateLimit-Remaining: 797
+< Access-Control-Allow-Origin: *
+< Content-Security-Policy: upgrade-insecure-requests
+< X-Cache: Miss from cloudfront
+< Via: 1.1 f3405208f368b682f8c8a96590ab1596.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: SYD62-P2
+< X-Amz-Cf-Id: kshEdxJLrkj1R5MgG4fBCR-brnesw5jtjbY_9L0mfWZXsmyvLgIucg==
+< 
+* Connection #0 to host affordablefunding.ambitioncloud.com.au left intact
+{"form_name":"Affordable Funding Landing Page","first_name":"Keegan","last_name":"Perry","amount":"370","phone":"0413475591","email":"pkeegan04@gmail.com","source_id":18,"address[locality]":"Ballarat","aai[total_monthly_income]":"370"}
