@@ -25,42 +25,42 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
 
 
         // CRM Integration 
-        $curl = curl_init();
-        $f = fopen('request.txt', 'w');
-        $form_data = json_encode(array(
-            'form_name'                 => 'Affordable Funding Landing Page',
-            'name'                => $name,
-            'phone'                     => $phone,
-            'email'                     => $email,
-            'source_id'                 => 18,
-            'enquiry_type'         => $enquiryType,
-            'comment' => $comment,
-        ));
-        curl_setopt_array(
-            $curl,
-            array(
-                CURLOPT_URL             => "https://affordablefunding.ambitioncloud.com.au/api/inbound",
-                CURLOPT_RETURNTRANSFER  => true,
-                CURLOPT_ENCODING        => "",
-                CURLOPT_MAXREDIRS       => 10,
-                CURLOPT_TIMEOUT         => 0,
-                CURLOPT_FOLLOWLOCATION  => true,
-                CURLOPT_HTTP_VERSION    => CURL_HTTP_VERSION_1_1,
-                CURLOPT_CUSTOMREQUEST   => "POST",
-                CURLOPT_VERBOSE         => true,
-                CURLOPT_STDERR          => $f,
-                CURLOPT_POSTFIELDS      => $form_data,
-                CURLOPT_HTTPHEADER => array(
-                    "Content-Type: application/json",
-                    "x-tenant-key: b1f6b2a6cd3c00b1d52449a959839e33130959fec20d357a922309b48a3c68d9e19004106b1a081a37555e8b43ad7fc3d4f4"
-                ),
-            )
-        );
+        // $curl = curl_init();
+        // $f = fopen('request.txt', 'w');
+        // $form_data = json_encode(array(
+        //     'form_name'                 => 'Affordable Funding Landing Page',
+        //     'name'                => $name,
+        //     'phone'                     => $phone,
+        //     'email'                     => $email,
+        //     'source_id'                 => 18,
+        //     'enquiry_type'         => $enquiryType,
+        //     'comment' => $comment,
+        // ));
+        // curl_setopt_array(
+        //     $curl,
+        //     array(
+        //         CURLOPT_URL             => "https://affordablefunding.ambitioncloud.com.au/api/inbound",
+        //         CURLOPT_RETURNTRANSFER  => true,
+        //         CURLOPT_ENCODING        => "",
+        //         CURLOPT_MAXREDIRS       => 10,
+        //         CURLOPT_TIMEOUT         => 0,
+        //         CURLOPT_FOLLOWLOCATION  => true,
+        //         CURLOPT_HTTP_VERSION    => CURL_HTTP_VERSION_1_1,
+        //         CURLOPT_CUSTOMREQUEST   => "POST",
+        //         CURLOPT_VERBOSE         => true,
+        //         CURLOPT_STDERR          => $f,
+        //         CURLOPT_POSTFIELDS      => $form_data,
+        //         CURLOPT_HTTPHEADER => array(
+        //             "Content-Type: application/json",
+        //             "x-tenant-key: b1f6b2a6cd3c00b1d52449a959839e33130959fec20d357a922309b48a3c68d9e19004106b1a081a37555e8b43ad7fc3d4f4"
+        //         ),
+        //     )
+        // );
 
-        $response = curl_exec($curl);
-        fwrite($f, $form_data);
-        fclose($f);
-        curl_close($curl);
+        // $response = curl_exec($curl);
+        // fwrite($f, $form_data);
+        // fclose($f);
+        // curl_close($curl);
 
         $message = '<!DOCTYPE html>
                 <html>
