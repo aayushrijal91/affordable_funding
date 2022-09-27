@@ -30,7 +30,7 @@
 					<div class="col-xl-4 d-none d-md-block">
 						<div class="newsletter-header fs-6" id="form">Enquire Now</div>
 						<form action="./src/form" method="post" class="newsletter-form">
-							<input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
+							<input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse">
 							<div class="row g-2 g-md-3 align-items-center">
 								<div class="col-md-6">
 									<input type="text" class="form-control" name="name" placeholder="Full Name" required>
@@ -90,7 +90,7 @@
 							<div class="text-light fw-300">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 
 							<form action="./src/form" method="post" class="newsletter-form mt-4">
-								<input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse">
+								<input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
 								<div class="row g-2 align-items-center">
 									<div class="col-md-6">
 										<input type="text" class="form-control" name="name" placeholder="Full Name" required>
