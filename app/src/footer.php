@@ -174,10 +174,10 @@
 						<div class="row gx-4 copyright gx-xl-5 align-items-center fw-300 py-md-4">
 							<div class="col-auto">Copyright <?= date('Y') ?></div>
 							<div class="col-auto"><?= $site ?> All Right Reserved</div>
-							<div class="col-auto">Privacy Policies</div>
+							<div class="col-auto"><a href="./assets/files/privacy_policies.pdf" target="_blank" class="text-white text-decoration-none">Privacy Policies</a></div>
 							<div class="col-auto">Terms &amp; Conditions</div>
 							<div class="col-auto">Credit Guide</div>
-							<div class="col-auto">Complaints Policy</div>
+							<div class="col-auto"><a href="./assets/files/complaints_policies.pdf" target="_blank" class="text-white text-decoration-none">Complaints Policy</a></div>
 						</div>
 						<div class="row justify-content-between pt-4 align-items-center">
 							<div class="col-5 col-md-auto order-2 order-md-1">
