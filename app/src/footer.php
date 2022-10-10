@@ -176,7 +176,7 @@
 							<div class="col-auto"><?= $site ?> All Right Reserved</div>
 							<div class="col-auto"><a href="./assets/files/privacy_policies.pdf" target="_blank" class="text-white text-decoration-none">Privacy Policies</a></div>
 							<div class="col-auto">Terms &amp; Conditions</div>
-							<div class="col-auto">Credit Guide</div>
+							<div class="col-auto"><a href="./assets/files/credit-guide.pdf" target="_blank" class="text-white text-decoration-none">Credit Guide</a></div>
 							<div class="col-auto"><a href="./assets/files/complaints_policies.pdf" target="_blank" class="text-white text-decoration-none">Complaints Policy</a></div>
 						</div>
 						<div class="row justify-content-between pt-4 align-items-center">
