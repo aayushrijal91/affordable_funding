@@ -10,18 +10,18 @@
 							<div class="col-lg-9 py-3">
 								<div class="d-md-none footer-contact-button">
 									<div class="pb-1">
-										<a href="#form" class="btn btn-secondary-dark text-white fw-700 rounded-pill line-height-1 py-2">Get a FREE Quote within minutes</a>
+										<a href="#mobile-form" class="btn btn-secondary-dark text-white fw-700 rounded-pill line-height-1 py-2">Enquire Now</a>
 									</div>
 									<div class="pt-1">
-										<a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn btn-white text-primary-dark fw-700 rounded-pill line-height-1 py-2">Apply Now</a>
+										<a href="./apply-now" target="_blank" class="btn btn-white text-primary-dark fw-700 rounded-pill line-height-1 py-2">Apply Now</a>
 									</div>
 								</div>
 								<div class="row g-0 bg-white rounded-pill footer-contact-button d-none d-md-flex">
 									<div class="col">
-										<a href="#form" class="btn btn-secondary-dark text-white fs-9 fw-700 rounded-pill line-height-1 py-3 px-6">Get a FREE Quote within minutes</a>
+										<a href="#form" class="btn btn-secondary-dark text-white fs-9 fw-700 rounded-pill line-height-1 py-3 px-6">Enquire Now</a>
 									</div>
 									<div class="col-auto">
-										<a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="btn text-primary-dark fs-9 fw-800 line-height-1 py-3 px-5">Apply Now</a>
+										<a href="./apply-now" target="_blank" class="btn text-primary-dark fs-9 fw-800 line-height-1 py-3 px-5">Apply Now</a>
 									</div>
 								</div>
 							</div>
@@ -75,7 +75,7 @@
 							<li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
 							<li><a href="#about-us" class="text-white fs-12">About Us</a></li>
 							<li><a href="#" class="text-white fs-12">Lenders</a></li>
-							<li><a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white fs-12">Apply Now</a></li>
+							<li><a href="./apply-now" target="_blank" class="text-white fs-12">Apply Now</a></li>
 							<li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
 						</ul>
 						<hr>
@@ -89,7 +89,7 @@
 							<div class="google-map-title">Affordable Funding - Car Finance Sydney</div>
 							<div class="text-light fw-300">49/2/4 Picrite Cl, Pemulwuy NSW 2145</div>
 
-							<form action="./src/form" method="post" class="newsletter-form mt-4">
+							<form action="./src/form" method="post" class="newsletter-form mt-4" id="mobile-form">
 								<input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
 								<div class="row g-2 align-items-center">
 									<div class="col-md-6">
@@ -133,7 +133,7 @@
 									<li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
 									<li><a href="#about-us" class="text-white fs-12">About Us</a></li>
 									<li><a href="" class="text-white fs-12">Lenders</a></li>
-									<li><a href="https://affordablefunding.outgrow.us/affordablefunding-2" target="_blank" class="text-white fs-12">Apply Now</a></li>
+									<li><a href="./apply-now" target="_blank" class="text-white fs-12">Apply Now</a></li>
 									<li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
 								</ul>
 								<div class="row align-items-center gx-3 pt-4">
