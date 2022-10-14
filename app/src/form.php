@@ -17,26 +17,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
 
         $subject = "Message from " . $site;
 
-        $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
         $enquiryType = $_POST['enquiryType'];
         $comment = $_POST['comment'];
+        
+        $first_name = strip_tags(trim($_POST["name"]));
+        $last_name = strip_tags(trim($_POST["name"]));
 
         // CRM Integration 
         $curl = curl_init();
         $f = fopen('request.txt', 'w');
         $form_data = json_encode(array(
             'form_name'                 => 'Affordable Funding Landing Page',
-            'first_name'                => $name,
-            'last_name'                 => $name,
+            'first_name'                => $first_name,
+            'last_name'                 => $last_name,
+            'amount'                    => "",
             'phone'                     => $phone,
             'email'                     => $email,
             'source_id'                 => 18,
-            'custom_fields[EnquiryType]'         => $enquiryType,
-            'notes' => $comment,
+            'notes'         => $comment,
+            'custom_fields[EnquiryType]' => $enquiryType,
         ));
-
         curl_setopt_array(
             $curl,
             array(
@@ -59,6 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         );
 
         $response = curl_exec($curl);
+        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
         fwrite($f, $form_data);
         fclose($f);
         curl_close($curl);
@@ -87,23 +90,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
                 <body><table><tbody>' .
             '<tr>' .
             '<td>Name</td>' .
-            '<td><b>' . strip_tags($name) . '</b></td>' .
+            '<td><b>' . $first_name . " " . $last_name . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Phone Number</td>' .
-            '<td><b>' . strip_tags($phone) . '</b></td>' .
+            '<td><b>' . $phone . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Email Address</td>' .
-            '<td><b>' . strip_tags($email) . '</b></td>' .
+            '<td><b>' . $email . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Enquiry Type</td>' .
-            '<td><b>' . strip_tags($enquiryType) . '</b></td>' .
+            '<td><b>' . $enquiryType . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Message</td>' .
-            '<td><b>' . strip_tags($comment) . '</b></td>' .
+            '<td><b>' . $comment . '</b></td>' .
             '</tr>' .
             '</tbody></table></body></html>';
 
