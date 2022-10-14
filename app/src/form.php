@@ -22,8 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $enquiryType = $_POST['enquiryType'];
         $comment = $_POST['comment'];
         
-        $first_name = strip_tags(trim($_POST["name"]));
-        $last_name = strip_tags(trim($_POST["name"]));
+        $first_name = strip_tags(trim($_POST["first_name"]));
+        $last_name = strip_tags(trim($_POST["last_name"]));
 
         // CRM Integration 
         $curl = curl_init();
