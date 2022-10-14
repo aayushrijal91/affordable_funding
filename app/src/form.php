@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
                 CURLOPT_POSTFIELDS      => $form_data,
                 CURLOPT_HTTPHEADER => array(
                     "Content-Type: application/json",
-                    "x-tenant-key: b1f6b2a6cd3c00b1d52449a959839e33130959fec20d357a922309b48a3c68d9e19004106b1a081a37555e8b43ad7fc3d4f4"
+                    "x-tenant-key: ".$ambition_cloud_key
                 ),
             )
         );
