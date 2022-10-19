@@ -1334,7 +1334,7 @@
                                         <a href="#mobile-form" class="btn btn-secondary-dark text-white fw-700 rounded-pill line-height-1 py-2">Enquire Now</a>
                                     </div>
                                     <div class="pt-1">
-                                        <a href="./apply-now" target="_blank" class="btn btn-white text-primary-dark fw-700 rounded-pill line-height-1 py-2">Apply Now</a>
+                                        <a href="./loan-application" target="_blank" class="btn btn-white text-primary-dark fw-700 rounded-pill line-height-1 py-2">Apply Now</a>
                                     </div>
                                 </div>
                                 <div class="row g-0 bg-white rounded-pill footer-contact-button d-none d-md-flex">
@@ -1342,7 +1342,7 @@
                                         <a href="#form" class="btn btn-secondary-dark text-white fs-9 fw-700 rounded-pill line-height-1 py-3 px-6">Enquire Now</a>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="./apply-now" target="_blank" class="btn text-primary-dark fs-9 fw-800 line-height-1 py-3 px-5">Apply Now</a>
+                                        <a href="./loan-application" target="_blank" class="btn text-primary-dark fs-9 fw-800 line-height-1 py-3 px-5">Apply Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -1399,7 +1399,7 @@
                             <li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
                             <li><a href="#about-us" class="text-white fs-12">About Us</a></li>
                             <li><a href="#" class="text-white fs-12">Lenders</a></li>
-                            <li><a href="./apply-now" target="_blank" class="text-white fs-12">Apply Now</a></li>
+                            <li><a href="./loan-application" target="_blank" class="text-white fs-12">Apply Now</a></li>
                             <li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
                         </ul>
                         <hr>
@@ -1457,7 +1457,7 @@
                                     <li><a href="#loans" class="text-white fs-12">Types of Loans</a></li>
                                     <li><a href="#about-us" class="text-white fs-12">About Us</a></li>
                                     <li><a href="" class="text-white fs-12">Lenders</a></li>
-                                    <li><a href="./apply-now" target="_blank" class="text-white fs-12">Apply Now</a></li>
+                                    <li><a href="./loan-application" target="_blank" class="text-white fs-12">Apply Now</a></li>
                                     <li><a href="#contact-us" class="text-white fs-12">Contact Us</a></li>
                                 </ul>
                                 <div class="row align-items-center gx-3 pt-4">

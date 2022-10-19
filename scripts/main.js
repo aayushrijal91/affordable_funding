@@ -139,7 +139,8 @@ $(() => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        draggable: false
+        // draggable: false,
+        autoplay: true
     });
 
     $("#rates-arrow-next").on('click', function () {
