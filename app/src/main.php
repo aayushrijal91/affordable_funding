@@ -20,7 +20,7 @@
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="#form" class="btn d-block bordered border-primary rounded-pill text-primary-dark fw-800 py-2 py-md-3 px-md-5 text-uppercase fs-13">
+                            <a href="#mobile-form" class="btn d-block bordered border-primary rounded-pill text-primary-dark fw-800 py-2 py-md-3 px-md-5 text-uppercase fs-13">
                                 Enquire Now
                             </a>
                         </div>
@@ -377,7 +377,7 @@
                         </ul>
                         <div class="pt-4 d-md-none">
                             <div class="pb-1">
-                                <a href="#form" class="btn btn-secondary-dark text-white fs-11 fw-700 rounded-pill line-height-1 py-3 d-block">Enquire Now</a>
+                                <a href="#mobile-form" class="btn btn-secondary-dark text-white fs-11 fw-700 rounded-pill line-height-1 py-3 d-block">Enquire Now</a>
                             </div>
                             <div class="pt-1">
                                 <a href="./loan-application" target="_blank" class="btn text-primary-dark fs-11 fw-800 line-height-1 py-3 rounded-pill btn-white d-block">Apply Now</a>
